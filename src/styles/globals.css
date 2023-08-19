@@ -1,3 +1,7 @@
+@import "/webfont/cryptocoins.css";
+@import "/webfont/cryptocoins-colors.css";
+@import "/webfont/beacons.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

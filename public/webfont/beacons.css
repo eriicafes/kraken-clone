@@ -1,0 +1,10895 @@
+@font-face {
+  font-family: beacons;
+  src: url(/webfont/beacons.eot) format("embedded-opentype"), url(/webfont/beacons.woff2) format("woff2"),
+    url(/webfont/beacons.woff) format("woff"), url(/webfont/beacons.ttf) format("truetype");
+}
+.beacon {
+  font-family: beacons;
+  font-style: normal;
+  font-weight: 400;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.exc-_default-s:before {
+  content: "";
+}
+.exc-_default:before {
+  content: "";
+}
+.sym-_default-s:before {
+  content: "";
+}
+.sym-_default:before,
+.sym-d:before {
+  content: "";
+}
+.sym-d-s:before {
+  content: "";
+}
+.sym-default:before {
+  content: "";
+}
+.sym-default-s:before {
+  content: "";
+}
+.exc-d:before {
+  content: "";
+}
+.exc-d-s:before {
+  content: "";
+}
+.exc-default:before {
+  content: "";
+}
+.exc-default-s:before {
+  content: "";
+}
+.cur-default:before {
+  content: "";
+}
+.cur-default-s:before {
+  content: "";
+}
+.exc-axieinfinity-s:before {
+  content: "";
+}
+.exc-axieinfinity:before {
+  content: "";
+}
+.exc-bibox-s:before {
+  content: "";
+}
+.exc-bibox:before {
+  content: "";
+}
+.exc-binance-s:before {
+  content: "";
+}
+.exc-binance:before {
+  content: "";
+}
+.exc-bisq-s:before {
+  content: "";
+}
+.exc-bisq:before {
+  content: "";
+}
+.exc-bitbay-s:before {
+  content: "";
+}
+.exc-bitbay:before {
+  content: "";
+}
+.exc-bitfinex-s:before {
+  content: "";
+}
+.exc-bitfinex:before {
+  content: "";
+}
+.exc-bitflyer-s:before {
+  content: "";
+}
+.exc-bitflyer:before {
+  content: "";
+}
+.exc-bithumb-s:before {
+  content: "";
+}
+.exc-bithumb:before {
+  content: "";
+}
+.exc-bitmex-s:before {
+  content: "";
+}
+.exc-bitmex:before {
+  content: "";
+}
+.exc-bitso-s:before {
+  content: "";
+}
+.exc-bitso:before {
+  content: "";
+}
+.exc-bitsquare-s:before {
+  content: "";
+}
+.exc-bitsquare:before {
+  content: "";
+}
+.exc-bitstamp-s:before {
+  content: "";
+}
+.exc-bitstamp:before {
+  content: "";
+}
+.exc-bittrex-s:before {
+  content: "";
+}
+.exc-bittrex:before {
+  content: "";
+}
+.exc-bitvc-s:before {
+  content: "";
+}
+.exc-bitvc:before {
+  content: "";
+}
+.exc-btcchina-s:before {
+  content: "";
+}
+.exc-btcchina:before {
+  content: "";
+}
+.exc-btce-s:before {
+  content: "";
+}
+.exc-btce:before {
+  content: "";
+}
+.exc-bybit-s:before {
+  content: "";
+}
+.exc-bybit:before {
+  content: "";
+}
+.exc-cexio-s:before {
+  content: "";
+}
+.exc-cexio:before {
+  content: "";
+}
+.exc-cme-s:before {
+  content: "";
+}
+.exc-cme:before {
+  content: "";
+}
+.exc-coinbase-s:before {
+  content: "";
+}
+.exc-coinbase:before {
+  content: "";
+}
+.exc-coinbasepro-s:before {
+  content: "";
+}
+.exc-coinbasepro:before {
+  content: "";
+}
+.exc-coinone-s:before {
+  content: "";
+}
+.exc-coinone:before {
+  content: "";
+}
+.exc-comex-s:before {
+  content: "";
+}
+.exc-comex:before {
+  content: "";
+}
+.exc-crypto-com-s:before {
+  content: "";
+}
+.exc-cryptofacilities-s:before {
+  content: "";
+}
+.exc-cryptofacilities:before {
+  content: "";
+}
+.exc-deribit-s:before {
+  content: "";
+}
+.exc-deribit:before {
+  content: "";
+}
+.exc-dex-aggregated-s:before {
+  content: "";
+}
+.exc-dex-aggregated:before {
+  content: "";
+}
+.exc-gateio-s:before {
+  content: "";
+}
+.exc-gateio:before {
+  content: "";
+}
+.exc-hitbtc-s:before {
+  content: "";
+}
+.exc-hitbtc:before {
+  content: "";
+}
+.exc-kucoin-s:before {
+  content: "";
+}
+.exc-kucoin:before {
+  content: "";
+}
+.exc-liquid-s:before {
+  content: "";
+}
+.exc-liquid:before {
+  content: "";
+}
+.exc-luno-s:before {
+  content: "";
+}
+.exc-luno:before {
+  content: "";
+}
+.exc-mtgox-s:before {
+  content: "";
+}
+.exc-mtgox:before {
+  content: "";
+}
+.exc-mxc-s:before {
+  content: "";
+}
+.exc-mxc:before {
+  content: "";
+}
+.exc-nbatopshop-s:before {
+  content: "";
+}
+.exc-nbatopshop:before {
+  content: "";
+}
+.exc-nymex-s:before {
+  content: "";
+}
+.exc-nymex:before {
+  content: "";
+}
+.exc-okcoin-s:before {
+  content: "";
+}
+.exc-okcoin:before {
+  content: "";
+}
+.exc-okx-s:before {
+  content: "";
+}
+.exc-okx:before {
+  content: "";
+}
+.exc-opensea-s:before {
+  content: "";
+}
+.exc-opensea:before {
+  content: "";
+}
+.exc-poloniex-s:before {
+  content: "";
+}
+.exc-poloniex:before {
+  content: "";
+}
+.exc-qryptos-s:before {
+  content: "";
+}
+.exc-qryptos:before {
+  content: "";
+}
+.exc-quadrigacx-s:before {
+  content: "";
+}
+.exc-quadrigacx:before {
+  content: "";
+}
+.exc-quick-s:before {
+  content: "";
+}
+.exc-quick:before {
+  content: "";
+}
+.exc-quoine-s:before {
+  content: "";
+}
+.exc-quoine:before {
+  content: "";
+}
+.exc-rarible-s:before {
+  content: "";
+}
+.exc-rarible:before {
+  content: "";
+}
+.exc-totle-s:before {
+  content: "";
+}
+.exc-totle:before {
+  content: "";
+}
+.exc-upbit-s:before {
+  content: "";
+}
+.exc-upbit:before {
+  content: "";
+}
+.exc-vaultofsatoshi-s:before {
+  content: "";
+}
+.exc-vaultofsatoshi:before {
+  content: "";
+}
+.exc-wex-s:before {
+  content: "";
+}
+.exc-wex:before {
+  content: "";
+}
+.exc-zaif-s:before {
+  content: "";
+}
+.exc-zaif:before {
+  content: "";
+}
+.exc-zonda-s:before {
+  content: "";
+}
+.exc-zonda:before {
+  content: "";
+}
+.sym-1inch-s:before {
+  content: "";
+}
+.sym-1inch:before {
+  content: "";
+}
+.sym-1st-s:before {
+  content: "";
+}
+.sym-1st:before {
+  content: "";
+}
+.sym-6a-s:before {
+  content: "";
+}
+.sym-6a:before {
+  content: "";
+}
+.sym-6b-s:before {
+  content: "";
+}
+.sym-6b:before {
+  content: "";
+}
+.sym-6c-s:before {
+  content: "";
+}
+.sym-6c:before {
+  content: "";
+}
+.sym-6e-s:before {
+  content: "";
+}
+.sym-6e:before {
+  content: "";
+}
+.sym-6j-s:before {
+  content: "";
+}
+.sym-6j:before {
+  content: "";
+}
+.sym-6l-s:before {
+  content: "";
+}
+.sym-6l:before {
+  content: "";
+}
+.sym-6m-s:before {
+  content: "";
+}
+.sym-6m:before {
+  content: "";
+}
+.sym-6n-s:before {
+  content: "";
+}
+.sym-6n:before {
+  content: "";
+}
+.sym-6s-s:before {
+  content: "";
+}
+.sym-6s:before {
+  content: "";
+}
+.sym-a38-s:before {
+  content: "";
+}
+.sym-a38:before {
+  content: "";
+}
+.sym-aac-s:before {
+  content: "";
+}
+.sym-aac:before {
+  content: "";
+}
+.sym-aave-s:before {
+  content: "";
+}
+.sym-aave:before {
+  content: "";
+}
+.sym-abbc-s:before {
+  content: "";
+}
+.sym-abbc:before {
+  content: "";
+}
+.sym-abt-s:before {
+  content: "";
+}
+.sym-abt:before {
+  content: "";
+}
+.sym-abyss-s:before {
+  content: "";
+}
+.sym-abyss:before {
+  content: "";
+}
+.sym-aca-s:before {
+  content: "";
+}
+.sym-aca:before {
+  content: "";
+}
+.sym-acat-s:before {
+  content: "";
+}
+.sym-acat:before {
+  content: "";
+}
+.sym-ach-s:before {
+  content: "";
+}
+.sym-ach:before {
+  content: "";
+}
+.sym-act-s:before {
+  content: "";
+}
+.sym-act:before {
+  content: "";
+}
+.sym-ad0-s:before {
+  content: "";
+}
+.sym-ad0:before {
+  content: "";
+}
+.sym-ada-s:before {
+  content: "";
+}
+.sym-ada:before {
+  content: "";
+}
+.sym-adel-s:before {
+  content: "";
+}
+.sym-adel:before {
+  content: "";
+}
+.sym-adh-s:before {
+  content: "";
+}
+.sym-adh:before {
+  content: "";
+}
+.sym-adm-s:before {
+  content: "";
+}
+.sym-adm:before {
+  content: "";
+}
+.sym-ado-s:before {
+  content: "";
+}
+.sym-ado:before {
+  content: "";
+}
+.sym-adt-s:before {
+  content: "";
+}
+.sym-adt:before {
+  content: "";
+}
+.sym-adx-s:before {
+  content: "";
+}
+.sym-adx:before {
+  content: "";
+}
+.sym-ae-s:before {
+  content: "";
+}
+.sym-ae:before {
+  content: "";
+}
+.sym-aed-s:before {
+  content: "";
+}
+.sym-aed:before {
+  content: "";
+}
+.sym-aeon-s:before {
+  content: "";
+}
+.sym-aeon:before {
+  content: "";
+}
+.sym-aep-s:before {
+  content: "";
+}
+.sym-aep:before {
+  content: "";
+}
+.sym-aergo-s:before {
+  content: "";
+}
+.sym-aergo:before {
+  content: "";
+}
+.sym-agi-s:before {
+  content: "";
+}
+.sym-agi:before {
+  content: "";
+}
+.sym-agld-s:before {
+  content: "";
+}
+.sym-agld:before {
+  content: "";
+}
+.sym-aid-s:before {
+  content: "";
+}
+.sym-aid:before {
+  content: "";
+}
+.sym-aion-s:before {
+  content: "";
+}
+.sym-aion:before {
+  content: "";
+}
+.sym-air-s:before {
+  content: "";
+}
+.sym-air:before {
+  content: "";
+}
+.sym-akro-s:before {
+  content: "";
+}
+.sym-akro:before {
+  content: "";
+}
+.sym-akt-s:before {
+  content: "";
+}
+.sym-akt:before {
+  content: "";
+}
+.sym-alcx-s:before {
+  content: "";
+}
+.sym-alcx:before {
+  content: "";
+}
+.sym-aleph-s:before {
+  content: "";
+}
+.sym-aleph:before {
+  content: "";
+}
+.sym-algo-s:before {
+  content: "";
+}
+.sym-algo:before {
+  content: "";
+}
+.sym-ali-s:before {
+  content: "";
+}
+.sym-ali:before {
+  content: "";
+}
+.sym-alice-s:before {
+  content: "";
+}
+.sym-alice:before {
+  content: "";
+}
+.sym-alpha-s:before {
+  content: "";
+}
+.sym-alpha:before {
+  content: "";
+}
+.sym-amb-s:before {
+  content: "";
+}
+.sym-amb:before {
+  content: "";
+}
+.sym-amlt-s:before {
+  content: "";
+}
+.sym-amlt:before {
+  content: "";
+}
+.sym-amp-s:before {
+  content: "";
+}
+.sym-amp:before {
+  content: "";
+}
+.sym-ampl-s:before {
+  content: "";
+}
+.sym-ampl:before {
+  content: "";
+}
+.sym-anc-s:before {
+  content: "";
+}
+.sym-anc:before {
+  content: "";
+}
+.sym-anct-s:before {
+  content: "";
+}
+.sym-anct:before {
+  content: "";
+}
+.sym-ankr-s:before {
+  content: "";
+}
+.sym-ankr:before {
+  content: "";
+}
+.sym-ant-s:before {
+  content: "";
+}
+.sym-ant:before {
+  content: "";
+}
+.sym-ape-s:before {
+  content: "";
+}
+.sym-ape:before {
+  content: "";
+}
+.sym-api3-s:before {
+  content: "";
+}
+.sym-api3:before {
+  content: "";
+}
+.sym-apis-s:before {
+  content: "";
+}
+.sym-apis:before {
+  content: "";
+}
+.sym-appc-s:before {
+  content: "";
+}
+.sym-appc:before {
+  content: "";
+}
+.sym-aptos-s:before {
+  content: "";
+}
+.sym-aptos:before {
+  content: "";
+}
+.sym-ar-s:before {
+  content: "";
+}
+.sym-ar:before {
+  content: "";
+}
+.sym-arbi-s:before {
+  content: "";
+}
+.sym-arbi:before {
+  content: "";
+}
+.sym-ardr-s:before {
+  content: "";
+}
+.sym-ardr:before {
+  content: "";
+}
+.sym-ark-s:before {
+  content: "";
+}
+.sym-ark:before {
+  content: "";
+}
+.sym-arn-s:before {
+  content: "";
+}
+.sym-arn:before {
+  content: "";
+}
+.sym-arpa-s:before {
+  content: "";
+}
+.sym-arpa:before {
+  content: "";
+}
+.sym-art-s:before {
+  content: "";
+}
+.sym-art:before {
+  content: "";
+}
+.sym-aspt-s:before {
+  content: "";
+}
+.sym-aspt:before {
+  content: "";
+}
+.sym-ast-s:before {
+  content: "";
+}
+.sym-ast:before {
+  content: "";
+}
+.sym-astr-s:before {
+  content: "";
+}
+.sym-astr:before {
+  content: "";
+}
+.sym-at-s:before {
+  content: "";
+}
+.sym-at:before {
+  content: "";
+}
+.sym-atlas-s:before {
+  content: "";
+}
+.sym-atlas:before {
+  content: "";
+}
+.sym-atm-s:before {
+  content: "";
+}
+.sym-atm:before {
+  content: "";
+}
+.sym-atom-s:before {
+  content: "";
+}
+.sym-atom:before {
+  content: "";
+}
+.sym-atp-s:before {
+  content: "";
+}
+.sym-atp:before {
+  content: "";
+}
+.sym-atri-s:before {
+  content: "";
+}
+.sym-atri:before {
+  content: "";
+}
+.sym-auction-s:before {
+  content: "";
+}
+.sym-auction:before {
+  content: "";
+}
+.sym-aud-s:before {
+  content: "";
+}
+.sym-aud:before {
+  content: "";
+}
+.sym-audio-s:before {
+  content: "";
+}
+.sym-audio:before {
+  content: "";
+}
+.sym-aup-s:before {
+  content: "";
+}
+.sym-aup:before {
+  content: "";
+}
+.sym-aury-s:before {
+  content: "";
+}
+.sym-aury:before {
+  content: "";
+}
+.sym-ausd-s:before {
+  content: "";
+}
+.sym-ausd:before {
+  content: "";
+}
+.sym-auto-s:before {
+  content: "";
+}
+.sym-auto:before {
+  content: "";
+}
+.sym-ava-s:before {
+  content: "";
+}
+.sym-ava:before {
+  content: "";
+}
+.sym-avax-s:before {
+  content: "";
+}
+.sym-avax:before {
+  content: "";
+}
+.sym-avt-s:before {
+  content: "";
+}
+.sym-avt:before {
+  content: "";
+}
+.sym-axl-s:before {
+  content: "";
+}
+.sym-axl:before {
+  content: "";
+}
+.sym-axpr-s:before {
+  content: "";
+}
+.sym-axpr:before {
+  content: "";
+}
+.sym-axs-s:before {
+  content: "";
+}
+.sym-axs:before {
+  content: "";
+}
+.sym-b:before {
+  content: "";
+}
+.sym-b0-s:before {
+  content: "";
+}
+.sym-b0:before {
+  content: "";
+}
+.sym-b2g-s:before {
+  content: "";
+}
+.sym-b2g:before {
+  content: "";
+}
+.sym-bab-s:before {
+  content: "";
+}
+.sym-bab:before {
+  content: "";
+}
+.sym-badger-s:before {
+  content: "";
+}
+.sym-badger:before {
+  content: "";
+}
+.sym-bake-s:before {
+  content: "";
+}
+.sym-bake:before {
+  content: "";
+}
+.sym-bal-s:before {
+  content: "";
+}
+.sym-bal:before {
+  content: "";
+}
+.sym-banca-s:before {
+  content: "";
+}
+.sym-banca:before {
+  content: "";
+}
+.sym-band-s:before {
+  content: "";
+}
+.sym-band:before {
+  content: "";
+}
+.sym-bat-s:before {
+  content: "";
+}
+.sym-bat:before {
+  content: "";
+}
+.sym-bay-s:before {
+  content: "";
+}
+.sym-bay:before {
+  content: "";
+}
+.sym-bbc-s:before {
+  content: "";
+}
+.sym-bbc:before {
+  content: "";
+}
+.sym-bcc-s:before {
+  content: "";
+}
+.sym-bcc:before {
+  content: "";
+}
+.sym-bcd-s:before {
+  content: "";
+}
+.sym-bcd:before {
+  content: "";
+}
+.sym-bch-s:before {
+  content: "";
+}
+.sym-bch:before {
+  content: "";
+}
+.sym-bci-s:before {
+  content: "";
+}
+.sym-bci:before {
+  content: "";
+}
+.sym-bcn-s:before {
+  content: "";
+}
+.sym-bcn:before {
+  content: "";
+}
+.sym-bcpt-s:before {
+  content: "";
+}
+.sym-bcpt:before {
+  content: "";
+}
+.sym-bcu-s:before {
+  content: "";
+}
+.sym-bcu:before {
+  content: "";
+}
+.sym-bcv-s:before {
+  content: "";
+}
+.sym-bcv:before {
+  content: "";
+}
+.sym-bcy-s:before {
+  content: "";
+}
+.sym-bcy:before {
+  content: "";
+}
+.sym-bdg-s:before {
+  content: "";
+}
+.sym-bdg:before {
+  content: "";
+}
+.sym-beam-s:before {
+  content: "";
+}
+.sym-beam:before {
+  content: "";
+}
+.sym-beet-s:before {
+  content: "";
+}
+.sym-beet:before {
+  content: "";
+}
+.sym-bel-s:before {
+  content: "";
+}
+.sym-bel:before {
+  content: "";
+}
+.sym-bela-s:before {
+  content: "";
+}
+.sym-bela:before {
+  content: "";
+}
+.sym-berry-s:before {
+  content: "";
+}
+.sym-berry:before {
+  content: "";
+}
+.sym-beta-s:before {
+  content: "";
+}
+.sym-beta:before {
+  content: "";
+}
+.sym-betr-s:before {
+  content: "";
+}
+.sym-betr:before {
+  content: "";
+}
+.sym-bez-s:before {
+  content: "";
+}
+.sym-bez:before {
+  content: "";
+}
+.sym-bft-s:before {
+  content: "";
+}
+.sym-bft:before {
+  content: "";
+}
+.sym-bfx-s:before {
+  content: "";
+}
+.sym-bfx:before {
+  content: "";
+}
+.sym-bhd-s:before {
+  content: "";
+}
+.sym-bhd:before {
+  content: "";
+}
+.sym-bht-s:before {
+  content: "";
+}
+.sym-bht:before {
+  content: "";
+}
+.sym-bico-s:before {
+  content: "";
+}
+.sym-bico:before {
+  content: "";
+}
+.sym-bit-s:before {
+  content: "";
+}
+.sym-bit:before {
+  content: "";
+}
+.sym-bitb-s:before {
+  content: "";
+}
+.sym-bitb:before {
+  content: "";
+}
+.sym-bix-s:before {
+  content: "";
+}
+.sym-bix:before {
+  content: "";
+}
+.sym-bk-s:before {
+  content: "";
+}
+.sym-bk:before {
+  content: "";
+}
+.sym-bkx-s:before {
+  content: "";
+}
+.sym-bkx:before {
+  content: "";
+}
+.sym-blk-s:before {
+  content: "";
+}
+.sym-blk:before {
+  content: "";
+}
+.sym-block-s:before {
+  content: "";
+}
+.sym-block:before {
+  content: "";
+}
+.sym-blok-s:before {
+  content: "";
+}
+.sym-blok:before {
+  content: "";
+}
+.sym-blt-s:before {
+  content: "";
+}
+.sym-blt:before {
+  content: "";
+}
+.sym-blz-s:before {
+  content: "";
+}
+.sym-blz:before {
+  content: "";
+}
+.sym-bmc-s:before {
+  content: "";
+}
+.sym-bmc:before {
+  content: "";
+}
+.sym-bnb-s:before {
+  content: "";
+}
+.sym-bnb:before {
+  content: "";
+}
+.sym-bnc-s:before {
+  content: "";
+}
+.sym-bnc:before {
+  content: "";
+}
+.sym-bnk-s:before {
+  content: "";
+}
+.sym-bnk:before {
+  content: "";
+}
+.sym-bnt-s:before {
+  content: "";
+}
+.sym-bnt:before {
+  content: "";
+}
+.sym-bo-s:before {
+  content: "";
+}
+.sym-bo:before {
+  content: "";
+}
+.sym-boba-s:before {
+  content: "";
+}
+.sym-boba:before {
+  content: "";
+}
+.sym-bond-s:before {
+  content: "";
+}
+.sym-bond:before {
+  content: "";
+}
+.sym-boo-s:before {
+  content: "";
+}
+.sym-boo:before {
+  content: "";
+}
+.sym-bor-s:before {
+  content: "";
+}
+.sym-bor:before {
+  content: "";
+}
+.sym-bora-s:before {
+  content: "";
+}
+.sym-bora:before {
+  content: "";
+}
+.sym-bos-s:before {
+  content: "";
+}
+.sym-bos:before {
+  content: "";
+}
+.sym-box-s:before {
+  content: "";
+}
+.sym-box:before {
+  content: "";
+}
+.sym-brd-s:before {
+  content: "";
+}
+.sym-brd:before {
+  content: "";
+}
+.sym-breed-s:before {
+  content: "";
+}
+.sym-breed:before {
+  content: "";
+}
+.sym-brg-s:before {
+  content: "";
+}
+.sym-brg:before {
+  content: "";
+}
+.sym-brick-s:before {
+  content: "";
+}
+.sym-brick:before {
+  content: "";
+}
+.sym-bsd-s:before {
+  content: "";
+}
+.sym-bsd:before {
+  content: "";
+}
+.sym-bsv-s:before {
+  content: "";
+}
+.sym-bsv:before {
+  content: "";
+}
+.sym-bsx-s:before {
+  content: "";
+}
+.sym-bsx:before {
+  content: "";
+}
+.sym-bt1-s:before {
+  content: "";
+}
+.sym-bt1:before {
+  content: "";
+}
+.sym-bt2-s:before {
+  content: "";
+}
+.sym-bt2:before {
+  content: "";
+}
+.sym-btc-s:before {
+  content: "";
+}
+.sym-btc:before {
+  content: "";
+}
+.sym-btcd-s:before {
+  content: "";
+}
+.sym-btcd:before {
+  content: "";
+}
+.sym-btcfx-s:before {
+  content: "";
+}
+.sym-btcfx:before {
+  content: "";
+}
+.sym-btcp-s:before {
+  content: "";
+}
+.sym-btcp:before {
+  content: "";
+}
+.sym-btg-s:before {
+  content: "";
+}
+.sym-btg:before {
+  content: "";
+}
+.sym-btm-s:before {
+  content: "";
+}
+.sym-btm:before {
+  content: "";
+}
+.sym-btn-s:before {
+  content: "";
+}
+.sym-btn:before {
+  content: "";
+}
+.sym-bto-s:before {
+  content: "";
+}
+.sym-bto:before {
+  content: "";
+}
+.sym-btrst-s:before {
+  content: "";
+}
+.sym-btrst:before {
+  content: "";
+}
+.sym-bts-s:before {
+  content: "";
+}
+.sym-bts:before {
+  content: "";
+}
+.sym-btt-s:before {
+  content: "";
+}
+.sym-btt:before {
+  content: "";
+}
+.sym-btu-s:before {
+  content: "";
+}
+.sym-btu:before {
+  content: "";
+}
+.sym-btx-s:before {
+  content: "";
+}
+.sym-btx:before {
+  content: "";
+}
+.sym-burger-s:before {
+  content: "";
+}
+.sym-burger:before {
+  content: "";
+}
+.sym-burst-s:before {
+  content: "";
+}
+.sym-burst:before {
+  content: "";
+}
+.sym-bus-s:before {
+  content: "";
+}
+.sym-bus:before {
+  content: "";
+}
+.sym-busd-s:before {
+  content: "";
+}
+.sym-busd:before {
+  content: "";
+}
+.sym-bwx-s:before {
+  content: "";
+}
+.sym-bwx:before {
+  content: "";
+}
+.sym-bz-s:before {
+  content: "";
+}
+.sym-bz:before {
+  content: "";
+}
+.sym-bzrx-s:before {
+  content: "";
+}
+.sym-bzrx:before {
+  content: "";
+}
+.sym-c-s:before {
+  content: "";
+}
+.sym-c:before {
+  content: "";
+}
+.sym-c20-s:before {
+  content: "";
+}
+.sym-c20:before {
+  content: "";
+}
+.sym-c98-s:before {
+  content: "";
+}
+.sym-c98:before {
+  content: "";
+}
+.sym-cad-s:before {
+  content: "";
+}
+.sym-cad:before {
+  content: "";
+}
+.sym-cake-s:before {
+  content: "";
+}
+.sym-cake:before {
+  content: "";
+}
+.sym-cas-s:before {
+  content: "";
+}
+.sym-cas:before {
+  content: "";
+}
+.sym-cat-s:before {
+  content: "";
+}
+.sym-cat:before {
+  content: "";
+}
+.sym-cbc-s:before {
+  content: "";
+}
+.sym-cbc:before {
+  content: "";
+}
+.sym-cbt-s:before {
+  content: "";
+}
+.sym-cbt:before {
+  content: "";
+}
+.sym-cdt-s:before {
+  content: "";
+}
+.sym-cdt:before {
+  content: "";
+}
+.sym-cel-s:before {
+  content: "";
+}
+.sym-cel:before {
+  content: "";
+}
+.sym-celo-s:before {
+  content: "";
+}
+.sym-celo:before {
+  content: "";
+}
+.sym-celr-s:before {
+  content: "";
+}
+.sym-celr:before {
+  content: "";
+}
+.sym-cennz-s:before {
+  content: "";
+}
+.sym-cennz:before {
+  content: "";
+}
+.sym-cfg-s:before {
+  content: "";
+}
+.sym-cfg:before {
+  content: "";
+}
+.sym-cfi-s:before {
+  content: "";
+}
+.sym-cfi:before {
+  content: "";
+}
+.sym-cfx-s:before {
+  content: "";
+}
+.sym-cfx:before {
+  content: "";
+}
+.sym-cgt-s:before {
+  content: "";
+}
+.sym-cgt:before {
+  content: "";
+}
+.sym-chat-s:before {
+  content: "";
+}
+.sym-chat:before {
+  content: "";
+}
+.sym-chf-s:before {
+  content: "";
+}
+.sym-chf:before {
+  content: "";
+}
+.sym-chp-s:before {
+  content: "";
+}
+.sym-chp:before {
+  content: "";
+}
+.sym-chr-s:before {
+  content: "";
+}
+.sym-chr:before {
+  content: "";
+}
+.sym-chsb-s:before {
+  content: "";
+}
+.sym-chsb:before {
+  content: "";
+}
+.sym-chx-s:before {
+  content: "";
+}
+.sym-chx:before {
+  content: "";
+}
+.sym-chz-s:before {
+  content: "";
+}
+.sym-chz:before {
+  content: "";
+}
+.sym-ckb-s:before {
+  content: "";
+}
+.sym-ckb:before {
+  content: "";
+}
+.sym-cl-s:before {
+  content: "";
+}
+.sym-cl:before {
+  content: "";
+}
+.sym-clam-s:before {
+  content: "";
+}
+.sym-clam:before {
+  content: "";
+}
+.sym-cln-s:before {
+  content: "";
+}
+.sym-cln:before {
+  content: "";
+}
+.sym-clo-s:before {
+  content: "";
+}
+.sym-clo:before {
+  content: "";
+}
+.sym-cloak-s:before {
+  content: "";
+}
+.sym-cloak:before {
+  content: "";
+}
+.sym-clv-s:before {
+  content: "";
+}
+.sym-clv:before {
+  content: "";
+}
+.sym-cmct-s:before {
+  content: "";
+}
+.sym-cmct:before {
+  content: "";
+}
+.sym-cmt-s:before {
+  content: "";
+}
+.sym-cmt:before {
+  content: "";
+}
+.sym-cnd-s:before {
+  content: "";
+}
+.sym-cnd:before {
+  content: "";
+}
+.sym-cnn-s:before {
+  content: "";
+}
+.sym-cnn:before {
+  content: "";
+}
+.sym-cnx-s:before {
+  content: "";
+}
+.sym-cnx:before {
+  content: "";
+}
+.sym-cny-s:before {
+  content: "";
+}
+.sym-cny:before {
+  content: "";
+}
+.sym-cob-s:before {
+  content: "";
+}
+.sym-cob:before {
+  content: "";
+}
+.sym-cocos-s:before {
+  content: "";
+}
+.sym-cocos:before {
+  content: "";
+}
+.sym-comp-s:before {
+  content: "";
+}
+.sym-comp:before {
+  content: "";
+}
+.sym-cope-s:before {
+  content: "";
+}
+.sym-cope:before {
+  content: "";
+}
+.sym-cos-s:before {
+  content: "";
+}
+.sym-cos:before {
+  content: "";
+}
+.sym-cosm-s:before {
+  content: "";
+}
+.sym-cosm:before {
+  content: "";
+}
+.sym-coss-s:before {
+  content: "";
+}
+.sym-coss:before {
+  content: "";
+}
+.sym-coti-s:before {
+  content: "";
+}
+.sym-coti:before {
+  content: "";
+}
+.sym-cov-s:before {
+  content: "";
+}
+.sym-cov:before {
+  content: "";
+}
+.sym-cova-s:before {
+  content: "";
+}
+.sym-cova:before {
+  content: "";
+}
+.sym-cpt-s:before {
+  content: "";
+}
+.sym-cpt:before {
+  content: "";
+}
+.sym-cpx-s:before {
+  content: "";
+}
+.sym-cpx:before {
+  content: "";
+}
+.sym-cqt-s:before {
+  content: "";
+}
+.sym-cqt:before {
+  content: "";
+}
+.sym-cra-s:before {
+  content: "";
+}
+.sym-cra:before {
+  content: "";
+}
+.sym-crab-s:before {
+  content: "";
+}
+.sym-crab:before {
+  content: "";
+}
+.sym-crc-s:before {
+  content: "";
+}
+.sym-crc:before {
+  content: "";
+}
+.sym-cre-s:before {
+  content: "";
+}
+.sym-cre:before {
+  content: "";
+}
+.sym-cream-s:before {
+  content: "";
+}
+.sym-cream:before {
+  content: "";
+}
+.sym-cring-s:before {
+  content: "";
+}
+.sym-cring:before {
+  content: "";
+}
+.sym-cro-s:before {
+  content: "";
+}
+.sym-cro:before {
+  content: "";
+}
+.sym-crpt-s:before {
+  content: "";
+}
+.sym-crpt:before {
+  content: "";
+}
+.sym-cru-s:before {
+  content: "";
+}
+.sym-cru:before {
+  content: "";
+}
+.sym-crust-s:before {
+  content: "";
+}
+.sym-crust:before {
+  content: "";
+}
+.sym-crv-s:before {
+  content: "";
+}
+.sym-crv:before {
+  content: "";
+}
+.sym-crw-s:before {
+  content: "";
+}
+.sym-crw:before {
+  content: "";
+}
+.sym-crypto-com:before {
+  content: "";
+}
+.sym-csm-s:before {
+  content: "";
+}
+.sym-csm:before {
+  content: "";
+}
+.sym-csx-s:before {
+  content: "";
+}
+.sym-csx:before {
+  content: "";
+}
+.sym-ctc-s:before {
+  content: "";
+}
+.sym-ctc:before {
+  content: "";
+}
+.sym-ctk-s:before {
+  content: "";
+}
+.sym-ctk:before {
+  content: "";
+}
+.sym-ctsi-s:before {
+  content: "";
+}
+.sym-ctsi:before {
+  content: "";
+}
+.sym-ctxc-s:before {
+  content: "";
+}
+.sym-ctxc:before {
+  content: "";
+}
+.sym-cult-s:before {
+  content: "";
+}
+.sym-cult:before {
+  content: "";
+}
+.sym-cur-s:before {
+  content: "";
+}
+.sym-cur:before {
+  content: "";
+}
+.sym-cvc-s:before {
+  content: "";
+}
+.sym-cvc:before {
+  content: "";
+}
+.sym-cvcoin-s:before {
+  content: "";
+}
+.sym-cvcoin:before {
+  content: "";
+}
+.sym-cvnt-s:before {
+  content: "";
+}
+.sym-cvnt:before {
+  content: "";
+}
+.sym-cvp-s:before {
+  content: "";
+}
+.sym-cvp:before {
+  content: "";
+}
+.sym-cvt-s:before {
+  content: "";
+}
+.sym-cvt:before {
+  content: "";
+}
+.sym-cvx-s:before {
+  content: "";
+}
+.sym-cvx:before {
+  content: "";
+}
+.sym-cw-s:before {
+  content: "";
+}
+.sym-cw:before {
+  content: "";
+}
+.sym-cyc-s:before {
+  content: "";
+}
+.sym-cyc:before {
+  content: "";
+}
+.sym-dac-s:before {
+  content: "";
+}
+.sym-dac:before {
+  content: "";
+}
+.sym-dacs-s:before {
+  content: "";
+}
+.sym-dacs:before {
+  content: "";
+}
+.sym-dadi-s:before {
+  content: "";
+}
+.sym-dadi:before {
+  content: "";
+}
+.sym-dag-s:before {
+  content: "";
+}
+.sym-dag:before {
+  content: "";
+}
+.sym-dai-s:before {
+  content: "";
+}
+.sym-dai:before {
+  content: "";
+}
+.sym-dao-s:before {
+  content: "";
+}
+.sym-dao:before {
+  content: "";
+}
+.sym-dar-s:before {
+  content: "";
+}
+.sym-dar:before {
+  content: "";
+}
+.sym-dash-s:before {
+  content: "";
+}
+.sym-dash:before {
+  content: "";
+}
+.sym-dat-s:before {
+  content: "";
+}
+.sym-dat:before {
+  content: "";
+}
+.sym-data-s:before {
+  content: "";
+}
+.sym-data:before {
+  content: "";
+}
+.sym-datx-s:before {
+  content: "";
+}
+.sym-datx:before {
+  content: "";
+}
+.sym-dbc-s:before {
+  content: "";
+}
+.sym-dbc:before {
+  content: "";
+}
+.sym-dbet-s:before {
+  content: "";
+}
+.sym-dbet:before {
+  content: "";
+}
+.sym-dbix-s:before {
+  content: "";
+}
+.sym-dbix:before {
+  content: "";
+}
+.sym-dcn-s:before {
+  content: "";
+}
+.sym-dcn:before {
+  content: "";
+}
+.sym-dcr-s:before {
+  content: "";
+}
+.sym-dcr:before {
+  content: "";
+}
+.sym-dct-s:before {
+  content: "";
+}
+.sym-dct:before {
+  content: "";
+}
+.sym-ddd-s:before {
+  content: "";
+}
+.sym-ddd:before {
+  content: "";
+}
+.sym-dego-s:before {
+  content: "";
+}
+.sym-dego:before {
+  content: "";
+}
+.sym-dent-s:before {
+  content: "";
+}
+.sym-dent:before {
+  content: "";
+}
+.sym-dext-s:before {
+  content: "";
+}
+.sym-dext:before {
+  content: "";
+}
+.sym-dgb-s:before {
+  content: "";
+}
+.sym-dgb:before {
+  content: "";
+}
+.sym-dgd-s:before {
+  content: "";
+}
+.sym-dgd:before {
+  content: "";
+}
+.sym-dgtx-s:before {
+  content: "";
+}
+.sym-dgtx:before {
+  content: "";
+}
+.sym-dgx-s:before {
+  content: "";
+}
+.sym-dgx:before {
+  content: "";
+}
+.sym-dhx-s:before {
+  content: "";
+}
+.sym-dhx:before {
+  content: "";
+}
+.sym-dia-s:before {
+  content: "";
+}
+.sym-dia:before {
+  content: "";
+}
+.sym-dice-s:before {
+  content: "";
+}
+.sym-dice:before {
+  content: "";
+}
+.sym-dim-s:before {
+  content: "";
+}
+.sym-dim:before {
+  content: "";
+}
+.sym-dlt-s:before {
+  content: "";
+}
+.sym-dlt:before {
+  content: "";
+}
+.sym-dmd-s:before {
+  content: "";
+}
+.sym-dmd:before {
+  content: "";
+}
+.sym-dmt-s:before {
+  content: "";
+}
+.sym-dmt:before {
+  content: "";
+}
+.sym-dnt-s:before {
+  content: "";
+}
+.sym-dnt:before {
+  content: "";
+}
+.sym-dock-s:before {
+  content: "";
+}
+.sym-dock:before {
+  content: "";
+}
+.sym-dodo-s:before {
+  content: "";
+}
+.sym-dodo:before {
+  content: "";
+}
+.sym-doge-s:before {
+  content: "";
+}
+.sym-doge:before {
+  content: "";
+}
+.sym-dose-s:before {
+  content: "";
+}
+.sym-dose:before {
+  content: "";
+}
+.sym-dot-s:before {
+  content: "";
+}
+.sym-dot:before {
+  content: "";
+}
+.sym-dpx-s:before {
+  content: "";
+}
+.sym-dpx:before {
+  content: "";
+}
+.sym-dpy-s:before {
+  content: "";
+}
+.sym-dpy:before {
+  content: "";
+}
+.sym-dream-s:before {
+  content: "";
+}
+.sym-dream:before {
+  content: "";
+}
+.sym-drep-s:before {
+  content: "";
+}
+.sym-drep:before {
+  content: "";
+}
+.sym-drg-s:before {
+  content: "";
+}
+.sym-drg:before {
+  content: "";
+}
+.sym-drgn-s:before {
+  content: "";
+}
+.sym-drgn:before {
+  content: "";
+}
+.sym-drt-s:before {
+  content: "";
+}
+.sym-drt:before {
+  content: "";
+}
+.sym-dta-s:before {
+  content: "";
+}
+.sym-dta:before {
+  content: "";
+}
+.sym-dtb-s:before {
+  content: "";
+}
+.sym-dtb:before {
+  content: "";
+}
+.sym-dtr-s:before {
+  content: "";
+}
+.sym-dtr:before {
+  content: "";
+}
+.sym-dusk-s:before {
+  content: "";
+}
+.sym-dusk:before {
+  content: "";
+}
+.sym-dx-s:before {
+  content: "";
+}
+.sym-dx:before {
+  content: "";
+}
+.sym-dydx-s:before {
+  content: "";
+}
+.sym-dydx:before {
+  content: "";
+}
+.sym-dyn-s:before {
+  content: "";
+}
+.sym-dyn:before {
+  content: "";
+}
+.sym-easy:before {
+  content: "";
+}
+.sym-ecom-s:before {
+  content: "";
+}
+.sym-ecom:before {
+  content: "";
+}
+.sym-edc-s:before {
+  content: "";
+}
+.sym-edc:before {
+  content: "";
+}
+.sym-edg-s:before {
+  content: "";
+}
+.sym-edg:before {
+  content: "";
+}
+.sym-edo-s:before {
+  content: "";
+}
+.sym-edo:before {
+  content: "";
+}
+.sym-edp-s:before {
+  content: "";
+}
+.sym-edp:before {
+  content: "";
+}
+.sym-edr-s:before {
+  content: "";
+}
+.sym-edr:before {
+  content: "";
+}
+.sym-efi-s:before {
+  content: "";
+}
+.sym-efi:before {
+  content: "";
+}
+.sym-egld-s:before {
+  content: "";
+}
+.sym-egld:before {
+  content: "";
+}
+.sym-egt-s:before {
+  content: "";
+}
+.sym-egt:before {
+  content: "";
+}
+.sym-ehr-s:before {
+  content: "";
+}
+.sym-ehr:before {
+  content: "";
+}
+.sym-eko-s:before {
+  content: "";
+}
+.sym-eko:before {
+  content: "";
+}
+.sym-ekt-s:before {
+  content: "";
+}
+.sym-ekt:before {
+  content: "";
+}
+.sym-ela-s:before {
+  content: "";
+}
+.sym-ela:before {
+  content: "";
+}
+.sym-elec-s:before {
+  content: "";
+}
+.sym-elec:before {
+  content: "";
+}
+.sym-elf-s:before {
+  content: "";
+}
+.sym-elf:before {
+  content: "";
+}
+.sym-em-s:before {
+  content: "";
+}
+.sym-em:before {
+  content: "";
+}
+.sym-emc-s:before {
+  content: "";
+}
+.sym-emc:before {
+  content: "";
+}
+.sym-emc2-s:before {
+  content: "";
+}
+.sym-emc2:before {
+  content: "";
+}
+.sym-eng-s:before {
+  content: "";
+}
+.sym-eng:before {
+  content: "";
+}
+.sym-enj-s:before {
+  content: "";
+}
+.sym-enj:before {
+  content: "";
+}
+.sym-ens-s:before {
+  content: "";
+}
+.sym-ens:before {
+  content: "";
+}
+.sym-eos-s:before {
+  content: "";
+}
+.sym-eos:before {
+  content: "";
+}
+.sym-eosdac-s:before {
+  content: "";
+}
+.sym-eosdac:before {
+  content: "";
+}
+.sym-eq-s:before {
+  content: "";
+}
+.sym-eq:before {
+  content: "";
+}
+.sym-erd-s:before {
+  content: "";
+}
+.sym-erd:before {
+  content: "";
+}
+.sym-ern-s:before {
+  content: "";
+}
+.sym-ern:before {
+  content: "";
+}
+.sym-es:before {
+  content: "";
+}
+.sym-es-s:before {
+  content: "";
+}
+.sym-esd-s:before {
+  content: "";
+}
+.sym-esd:before {
+  content: "";
+}
+.sym-etc-s:before {
+  content: "";
+}
+.sym-etc:before {
+  content: "";
+}
+.sym-eth-s:before {
+  content: "";
+}
+.sym-eth:before {
+  content: "";
+}
+.sym-ethup-s:before {
+  content: "";
+}
+.sym-ethup:before {
+  content: "";
+}
+.sym-ethw-s:before {
+  content: "";
+}
+.sym-ethw:before {
+  content: "";
+}
+.sym-etn-s:before {
+  content: "";
+}
+.sym-etn:before {
+  content: "";
+}
+.sym-etp-s:before {
+  content: "";
+}
+.sym-etp:before {
+  content: "";
+}
+.sym-eul-s:before {
+  content: "";
+}
+.sym-eul:before {
+  content: "";
+}
+.sym-eur-s:before {
+  content: "";
+}
+.sym-eur:before {
+  content: "";
+}
+.sym-euroc-s:before {
+  content: "";
+}
+.sym-euroc:before {
+  content: "";
+}
+.sym-eurs-s:before {
+  content: "";
+}
+.sym-eurs:before {
+  content: "";
+}
+.sym-eurt-s:before {
+  content: "";
+}
+.sym-eurt:before {
+  content: "";
+}
+.sym-evn-s:before {
+  content: "";
+}
+.sym-evn:before {
+  content: "";
+}
+.sym-evx-s:before {
+  content: "";
+}
+.sym-evx:before {
+  content: "";
+}
+.sym-ewt-s:before {
+  content: "";
+}
+.sym-ewt:before {
+  content: "";
+}
+.sym-exp-s:before {
+  content: "";
+}
+.sym-exp:before {
+  content: "";
+}
+.sym-exrd-s:before {
+  content: "";
+}
+.sym-exrd:before {
+  content: "";
+}
+.sym-exy-s:before {
+  content: "";
+}
+.sym-exy:before {
+  content: "";
+}
+.sym-ez-s:before {
+  content: "";
+}
+.sym-ez:before {
+  content: "";
+}
+.sym-fair-s:before {
+  content: "";
+}
+.sym-fair:before {
+  content: "";
+}
+.sym-farm-s:before {
+  content: "";
+}
+.sym-farm:before {
+  content: "";
+}
+.sym-fct-s:before {
+  content: "";
+}
+.sym-fct:before {
+  content: "";
+}
+.sym-fdz-s:before {
+  content: "";
+}
+.sym-fdz:before {
+  content: "";
+}
+.sym-fee-s:before {
+  content: "";
+}
+.sym-fee:before {
+  content: "";
+}
+.sym-fet-s:before {
+  content: "";
+}
+.sym-fet:before {
+  content: "";
+}
+.sym-fida-s:before {
+  content: "";
+}
+.sym-fida:before {
+  content: "";
+}
+.sym-fil-s:before {
+  content: "";
+}
+.sym-fil:before {
+  content: "";
+}
+.sym-fio-s:before {
+  content: "";
+}
+.sym-fio:before {
+  content: "";
+}
+.sym-firo-s:before {
+  content: "";
+}
+.sym-firo:before {
+  content: "";
+}
+.sym-fis-s:before {
+  content: "";
+}
+.sym-fis:before {
+  content: "";
+}
+.sym-fldc-s:before {
+  content: "";
+}
+.sym-fldc:before {
+  content: "";
+}
+.sym-flo-s:before {
+  content: "";
+}
+.sym-flo:before {
+  content: "";
+}
+.sym-floki-s:before {
+  content: "";
+}
+.sym-floki:before {
+  content: "";
+}
+.sym-flow-s:before {
+  content: "";
+}
+.sym-flow:before {
+  content: "";
+}
+.sym-flr-s:before {
+  content: "";
+}
+.sym-flr:before {
+  content: "";
+}
+.sym-flux-s:before {
+  content: "";
+}
+.sym-flux:before {
+  content: "";
+}
+.sym-fluz-s:before {
+  content: "";
+}
+.sym-fluz:before {
+  content: "";
+}
+.sym-fnb-s:before {
+  content: "";
+}
+.sym-fnb:before {
+  content: "";
+}
+.sym-foam-s:before {
+  content: "";
+}
+.sym-foam:before {
+  content: "";
+}
+.sym-for-s:before {
+  content: "";
+}
+.sym-for:before {
+  content: "";
+}
+.sym-forth-s:before {
+  content: "";
+}
+.sym-forth:before {
+  content: "";
+}
+.sym-fota-s:before {
+  content: "";
+}
+.sym-fota:before {
+  content: "";
+}
+.sym-fox-s:before {
+  content: "";
+}
+.sym-fox:before {
+  content: "";
+}
+.sym-fpis-s:before {
+  content: "";
+}
+.sym-fpis:before {
+  content: "";
+}
+.sym-frax-s:before {
+  content: "";
+}
+.sym-frax:before {
+  content: "";
+}
+.sym-front-s:before {
+  content: "";
+}
+.sym-front:before {
+  content: "";
+}
+.sym-fsn-s:before {
+  content: "";
+}
+.sym-fsn:before {
+  content: "";
+}
+.sym-ftc-s:before {
+  content: "";
+}
+.sym-ftc:before {
+  content: "";
+}
+.sym-fti-s:before {
+  content: "";
+}
+.sym-fti:before {
+  content: "";
+}
+.sym-ftm-s:before {
+  content: "";
+}
+.sym-ftm:before {
+  content: "";
+}
+.sym-ftt-s:before {
+  content: "";
+}
+.sym-ftt:before {
+  content: "";
+}
+.sym-ftx-s:before {
+  content: "";
+}
+.sym-ftx:before {
+  content: "";
+}
+.sym-fuel-s:before {
+  content: "";
+}
+.sym-fuel:before {
+  content: "";
+}
+.sym-fun-s:before {
+  content: "";
+}
+.sym-fun:before {
+  content: "";
+}
+.sym-fx-s:before {
+  content: "";
+}
+.sym-fx:before {
+  content: "";
+}
+.sym-fxc-s:before {
+  content: "";
+}
+.sym-fxc:before {
+  content: "";
+}
+.sym-fxs-s:before {
+  content: "";
+}
+.sym-fxs:before {
+  content: "";
+}
+.sym-fxt-s:before {
+  content: "";
+}
+.sym-fxt:before {
+  content: "";
+}
+.sym-gal-s:before {
+  content: "";
+}
+.sym-gal:before {
+  content: "";
+}
+.sym-gala-s:before {
+  content: "";
+}
+.sym-gala:before {
+  content: "";
+}
+.sym-game-s:before {
+  content: "";
+}
+.sym-game:before {
+  content: "";
+}
+.sym-gamee-s:before {
+  content: "";
+}
+.sym-gamee:before {
+  content: "";
+}
+.sym-gard-s:before {
+  content: "";
+}
+.sym-gard:before {
+  content: "";
+}
+.sym-gari-s:before {
+  content: "";
+}
+.sym-gari:before {
+  content: "";
+}
+.sym-gas-s:before {
+  content: "";
+}
+.sym-gas:before {
+  content: "";
+}
+.sym-gbc-s:before {
+  content: "";
+}
+.sym-gbc:before {
+  content: "";
+}
+.sym-gbp-s:before {
+  content: "";
+}
+.sym-gbp:before {
+  content: "";
+}
+.sym-gbx-s:before {
+  content: "";
+}
+.sym-gbx:before {
+  content: "";
+}
+.sym-gbyte-s:before {
+  content: "";
+}
+.sym-gbyte:before {
+  content: "";
+}
+.sym-gc-s:before {
+  content: "";
+}
+.sym-gc:before {
+  content: "";
+}
+.sym-gcc-s:before {
+  content: "";
+}
+.sym-gcc:before {
+  content: "";
+}
+.sym-ge-s:before {
+  content: "";
+}
+.sym-ge:before {
+  content: "";
+}
+.sym-geist-s:before {
+  content: "";
+}
+.sym-geist:before {
+  content: "";
+}
+.sym-gen-s:before {
+  content: "";
+}
+.sym-gen:before {
+  content: "";
+}
+.sym-gene-s:before {
+  content: "";
+}
+.sym-gene:before {
+  content: "";
+}
+.sym-gens-s:before {
+  content: "";
+}
+.sym-gens:before {
+  content: "";
+}
+.sym-get-s:before {
+  content: "";
+}
+.sym-get:before {
+  content: "";
+}
+.sym-ghst-s:before {
+  content: "";
+}
+.sym-ghst:before {
+  content: "";
+}
+.sym-glc-s:before {
+  content: "";
+}
+.sym-glc:before {
+  content: "";
+}
+.sym-gld-s:before {
+  content: "";
+}
+.sym-gld:before {
+  content: "";
+}
+.sym-glm-s:before {
+  content: "";
+}
+.sym-glm:before {
+  content: "";
+}
+.sym-glmr-s:before {
+  content: "";
+}
+.sym-glmr:before {
+  content: "";
+}
+.sym-gmat-s:before {
+  content: "";
+}
+.sym-gmat:before {
+  content: "";
+}
+.sym-gmt-s:before {
+  content: "";
+}
+.sym-gmt:before {
+  content: "";
+}
+.sym-gmt2-s:before {
+  content: "";
+}
+.sym-gmt2:before {
+  content: "";
+}
+.sym-gmx-s:before {
+  content: "";
+}
+.sym-gmx:before {
+  content: "";
+}
+.sym-gno-s:before {
+  content: "";
+}
+.sym-gno:before {
+  content: "";
+}
+.sym-gnt-s:before {
+  content: "";
+}
+.sym-gnt:before {
+  content: "";
+}
+.sym-gnx-s:before {
+  content: "";
+}
+.sym-gnx:before {
+  content: "";
+}
+.sym-go-s:before {
+  content: "";
+}
+.sym-go:before {
+  content: "";
+}
+.sym-gods-s:before {
+  content: "";
+}
+.sym-gods:before {
+  content: "";
+}
+.sym-got-s:before {
+  content: "";
+}
+.sym-got:before {
+  content: "";
+}
+.sym-grc-s:before {
+  content: "";
+}
+.sym-grc:before {
+  content: "";
+}
+.sym-grin-s:before {
+  content: "";
+}
+.sym-grin:before {
+  content: "";
+}
+.sym-grs-s:before {
+  content: "";
+}
+.sym-grs:before {
+  content: "";
+}
+.sym-grt-s:before {
+  content: "";
+}
+.sym-grt:before {
+  content: "";
+}
+.sym-gsc-s:before {
+  content: "";
+}
+.sym-gsc:before {
+  content: "";
+}
+.sym-gst-s:before {
+  content: "";
+}
+.sym-gst:before {
+  content: "";
+}
+.sym-gt-s:before {
+  content: "";
+}
+.sym-gt:before {
+  content: "";
+}
+.sym-gtc-s:before {
+  content: "";
+}
+.sym-gtc:before {
+  content: "";
+}
+.sym-gtc2-s:before {
+  content: "";
+}
+.sym-gtc2:before {
+  content: "";
+}
+.sym-gto-s:before {
+  content: "";
+}
+.sym-gto:before {
+  content: "";
+}
+.sym-gup-s:before {
+  content: "";
+}
+.sym-gup:before {
+  content: "";
+}
+.sym-gusd-s:before {
+  content: "";
+}
+.sym-gusd:before {
+  content: "";
+}
+.sym-gvt-s:before {
+  content: "";
+}
+.sym-gvt:before {
+  content: "";
+}
+.sym-gxc-s:before {
+  content: "";
+}
+.sym-gxc:before {
+  content: "";
+}
+.sym-gxs-s:before {
+  content: "";
+}
+.sym-gxs:before {
+  content: "";
+}
+.sym-hard-s:before {
+  content: "";
+}
+.sym-hard:before {
+  content: "";
+}
+.sym-hbar-s:before {
+  content: "";
+}
+.sym-hbar:before {
+  content: "";
+}
+.sym-hc-s:before {
+  content: "";
+}
+.sym-hc:before {
+  content: "";
+}
+.sym-hdx-s:before {
+  content: "";
+}
+.sym-hdx:before {
+  content: "";
+}
+.sym-hedg-s:before {
+  content: "";
+}
+.sym-hedg:before {
+  content: "";
+}
+.sym-hegic-s:before {
+  content: "";
+}
+.sym-hegic:before {
+  content: "";
+}
+.sym-hex-s:before {
+  content: "";
+}
+.sym-hex:before {
+  content: "";
+}
+.sym-hft-s:before {
+  content: "";
+}
+.sym-hft:before {
+  content: "";
+}
+.sym-hg-s:before {
+  content: "";
+}
+.sym-hg:before {
+  content: "";
+}
+.sym-hgs-s:before {
+  content: "";
+}
+.sym-hgs:before {
+  content: "";
+}
+.sym-hh-s:before {
+  content: "";
+}
+.sym-hh:before {
+  content: "";
+}
+.sym-high-s:before {
+  content: "";
+}
+.sym-high:before {
+  content: "";
+}
+.sym-hit-s:before {
+  content: "";
+}
+.sym-hit:before {
+  content: "";
+}
+.sym-hive-s:before {
+  content: "";
+}
+.sym-hive:before {
+  content: "";
+}
+.sym-hkd-s:before {
+  content: "";
+}
+.sym-hkd:before {
+  content: "";
+}
+.sym-hko-s:before {
+  content: "";
+}
+.sym-hko:before {
+  content: "";
+}
+.sym-hmq-s:before {
+  content: "";
+}
+.sym-hmq:before {
+  content: "";
+}
+.sym-hns-s:before {
+  content: "";
+}
+.sym-hns:before {
+  content: "";
+}
+.sym-ho-s:before {
+  content: "";
+}
+.sym-ho:before {
+  content: "";
+}
+.sym-hopr-s:before {
+  content: "";
+}
+.sym-hopr:before {
+  content: "";
+}
+.sym-hot-s:before {
+  content: "";
+}
+.sym-hot:before {
+  content: "";
+}
+.sym-hp-s:before {
+  content: "";
+}
+.sym-hp:before {
+  content: "";
+}
+.sym-hpb-s:before {
+  content: "";
+}
+.sym-hpb:before {
+  content: "";
+}
+.sym-hpc-s:before {
+  content: "";
+}
+.sym-hpc:before {
+  content: "";
+}
+.sym-hpt-s:before {
+  content: "";
+}
+.sym-hpt:before {
+  content: "";
+}
+.sym-hrc-s:before {
+  content: "";
+}
+.sym-hrc:before {
+  content: "";
+}
+.sym-hsc-s:before {
+  content: "";
+}
+.sym-hsc:before {
+  content: "";
+}
+.sym-hsr-s:before {
+  content: "";
+}
+.sym-hsr:before {
+  content: "";
+}
+.sym-hst-s:before {
+  content: "";
+}
+.sym-hst:before {
+  content: "";
+}
+.sym-ht-s:before {
+  content: "";
+}
+.sym-ht:before {
+  content: "";
+}
+.sym-html-s:before {
+  content: "";
+}
+.sym-html:before {
+  content: "";
+}
+.sym-htt-s:before {
+  content: "";
+}
+.sym-htt:before {
+  content: "";
+}
+.sym-huc-s:before {
+  content: "";
+}
+.sym-huc:before {
+  content: "";
+}
+.sym-hunt-s:before {
+  content: "";
+}
+.sym-hunt:before {
+  content: "";
+}
+.sym-hvn-s:before {
+  content: "";
+}
+.sym-hvn:before {
+  content: "";
+}
+.sym-hxro-s:before {
+  content: "";
+}
+.sym-hxro:before {
+  content: "";
+}
+.sym-hyc-s:before {
+  content: "";
+}
+.sym-hyc:before {
+  content: "";
+}
+.sym-hydra-s:before {
+  content: "";
+}
+.sym-hydra:before {
+  content: "";
+}
+.sym-hydro-s:before {
+  content: "";
+}
+.sym-hydro:before {
+  content: "";
+}
+.sym-icn-s:before {
+  content: "";
+}
+.sym-icn:before {
+  content: "";
+}
+.sym-icos-s:before {
+  content: "";
+}
+.sym-icos:before {
+  content: "";
+}
+.sym-icp-s:before {
+  content: "";
+}
+.sym-icp:before {
+  content: "";
+}
+.sym-icx-s:before {
+  content: "";
+}
+.sym-icx:before {
+  content: "";
+}
+.sym-idex-s:before {
+  content: "";
+}
+.sym-idex:before {
+  content: "";
+}
+.sym-idh-s:before {
+  content: "";
+}
+.sym-idh:before {
+  content: "";
+}
+.sym-idr-s:before {
+  content: "";
+}
+.sym-idr:before {
+  content: "";
+}
+.sym-ift-s:before {
+  content: "";
+}
+.sym-ift:before {
+  content: "";
+}
+.sym-ignis-s:before {
+  content: "";
+}
+.sym-ignis:before {
+  content: "";
+}
+.sym-ihf-s:before {
+  content: "";
+}
+.sym-ihf:before {
+  content: "";
+}
+.sym-iht-s:before {
+  content: "";
+}
+.sym-iht:before {
+  content: "";
+}
+.sym-ilc-s:before {
+  content: "";
+}
+.sym-ilc:before {
+  content: "";
+}
+.sym-ilv-s:before {
+  content: "";
+}
+.sym-ilv:before {
+  content: "";
+}
+.sym-imx-s:before {
+  content: "";
+}
+.sym-imx:before {
+  content: "";
+}
+.sym-incnt-s:before {
+  content: "";
+}
+.sym-incnt:before {
+  content: "";
+}
+.sym-ind-s:before {
+  content: "";
+}
+.sym-ind:before {
+  content: "";
+}
+.sym-indi-s:before {
+  content: "";
+}
+.sym-indi:before {
+  content: "";
+}
+.sym-inj-s:before {
+  content: "";
+}
+.sym-inj:before {
+  content: "";
+}
+.sym-ink-s:before {
+  content: "";
+}
+.sym-ink:before {
+  content: "";
+}
+.sym-inr-s:before {
+  content: "";
+}
+.sym-inr:before {
+  content: "";
+}
+.sym-ins-s:before {
+  content: "";
+}
+.sym-ins:before {
+  content: "";
+}
+.sym-int-s:before {
+  content: "";
+}
+.sym-int:before {
+  content: "";
+}
+.sym-intr-s:before {
+  content: "";
+}
+.sym-intr:before {
+  content: "";
+}
+.sym-ioc-s:before {
+  content: "";
+}
+.sym-ioc:before {
+  content: "";
+}
+.sym-ion-s:before {
+  content: "";
+}
+.sym-ion:before {
+  content: "";
+}
+.sym-iost-s:before {
+  content: "";
+}
+.sym-iost:before {
+  content: "";
+}
+.sym-iot-s:before {
+  content: "";
+}
+.sym-iot:before {
+  content: "";
+}
+.sym-iotx-s:before {
+  content: "";
+}
+.sym-iotx:before {
+  content: "";
+}
+.sym-iq-s:before {
+  content: "";
+}
+.sym-iq:before {
+  content: "";
+}
+.sym-iris-s:before {
+  content: "";
+}
+.sym-iris:before {
+  content: "";
+}
+.sym-itc-s:before {
+  content: "";
+}
+.sym-itc:before {
+  content: "";
+}
+.sym-ivy-s:before {
+  content: "";
+}
+.sym-ivy:before {
+  content: "";
+}
+.sym-ixt-s:before {
+  content: "";
+}
+.sym-ixt:before {
+  content: "";
+}
+.sym-jasmy-s:before {
+  content: "";
+}
+.sym-jasmy:before {
+  content: "";
+}
+.sym-jnt-s:before {
+  content: "";
+}
+.sym-jnt:before {
+  content: "";
+}
+.sym-joe-s:before {
+  content: "";
+}
+.sym-joe:before {
+  content: "";
+}
+.sym-jpeg-s:before {
+  content: "";
+}
+.sym-jpeg:before {
+  content: "";
+}
+.sym-jpy-s:before {
+  content: "";
+}
+.sym-jpy:before {
+  content: "";
+}
+.sym-jst-s:before {
+  content: "";
+}
+.sym-jst:before {
+  content: "";
+}
+.sym-juno-s:before {
+  content: "";
+}
+.sym-juno:before {
+  content: "";
+}
+.sym-just-s:before {
+  content: "";
+}
+.sym-just:before {
+  content: "";
+}
+.sym-juv-s:before {
+  content: "";
+}
+.sym-juv:before {
+  content: "";
+}
+.sym-kan-s:before {
+  content: "";
+}
+.sym-kan:before {
+  content: "";
+}
+.sym-kapex-s:before {
+  content: "";
+}
+.sym-kapex:before {
+  content: "";
+}
+.sym-kar-s:before {
+  content: "";
+}
+.sym-kar:before {
+  content: "";
+}
+.sym-kava-s:before {
+  content: "";
+}
+.sym-kava:before {
+  content: "";
+}
+.sym-kbc-s:before {
+  content: "";
+}
+.sym-kbc:before {
+  content: "";
+}
+.sym-kcash-s:before {
+  content: "";
+}
+.sym-kcash:before {
+  content: "";
+}
+.sym-kda-s:before {
+  content: "";
+}
+.sym-kda:before {
+  content: "";
+}
+.sym-keep-s:before {
+  content: "";
+}
+.sym-keep:before {
+  content: "";
+}
+.sym-key-s:before {
+  content: "";
+}
+.sym-key:before {
+  content: "";
+}
+.sym-kick-s:before {
+  content: "";
+}
+.sym-kick:before {
+  content: "";
+}
+.sym-kilt-s:before {
+  content: "";
+}
+.sym-kilt:before {
+  content: "";
+}
+.sym-kin-s:before {
+  content: "";
+}
+.sym-kin:before {
+  content: "";
+}
+.sym-kint-s:before {
+  content: "";
+}
+.sym-kint:before {
+  content: "";
+}
+.sym-klay-s:before {
+  content: "";
+}
+.sym-klay:before {
+  content: "";
+}
+.sym-kma-s:before {
+  content: "";
+}
+.sym-kma:before {
+  content: "";
+}
+.sym-kmd-s:before {
+  content: "";
+}
+.sym-kmd:before {
+  content: "";
+}
+.sym-knc-s:before {
+  content: "";
+}
+.sym-knc:before {
+  content: "";
+}
+.sym-kore-s:before {
+  content: "";
+}
+.sym-kore:before {
+  content: "";
+}
+.sym-kp3r-s:before {
+  content: "";
+}
+.sym-kp3r:before {
+  content: "";
+}
+.sym-krm-s:before {
+  content: "";
+}
+.sym-krm:before {
+  content: "";
+}
+.sym-krw-s:before {
+  content: "";
+}
+.sym-krw:before {
+  content: "";
+}
+.sym-ksm-s:before {
+  content: "";
+}
+.sym-ksm:before {
+  content: "";
+}
+.sym-ksx-s:before {
+  content: "";
+}
+.sym-ksx:before {
+  content: "";
+}
+.sym-kyl-s:before {
+  content: "";
+}
+.sym-kyl:before {
+  content: "";
+}
+.sym-la-s:before {
+  content: "";
+}
+.sym-la:before {
+  content: "";
+}
+.sym-lak-s:before {
+  content: "";
+}
+.sym-lak:before {
+  content: "";
+}
+.sym-lamb-s:before {
+  content: "";
+}
+.sym-lamb:before {
+  content: "";
+}
+.sym-latx-s:before {
+  content: "";
+}
+.sym-latx:before {
+  content: "";
+}
+.sym-layr-s:before {
+  content: "";
+}
+.sym-layr:before {
+  content: "";
+}
+.sym-lba-s:before {
+  content: "";
+}
+.sym-lba:before {
+  content: "";
+}
+.sym-lbc-s:before {
+  content: "";
+}
+.sym-lbc:before {
+  content: "";
+}
+.sym-lcc-s:before {
+  content: "";
+}
+.sym-lcc:before {
+  content: "";
+}
+.sym-lcx-s:before {
+  content: "";
+}
+.sym-lcx:before {
+  content: "";
+}
+.sym-ldo-s:before {
+  content: "";
+}
+.sym-ldo:before {
+  content: "";
+}
+.sym-lend-s:before {
+  content: "";
+}
+.sym-lend:before {
+  content: "";
+}
+.sym-leo-s:before {
+  content: "";
+}
+.sym-leo:before {
+  content: "";
+}
+.sym-leoc-s:before {
+  content: "";
+}
+.sym-leoc:before {
+  content: "";
+}
+.sym-let-s:before {
+  content: "";
+}
+.sym-let:before {
+  content: "";
+}
+.sym-life-s:before {
+  content: "";
+}
+.sym-life:before {
+  content: "";
+}
+.sym-lina-s:before {
+  content: "";
+}
+.sym-lina:before {
+  content: "";
+}
+.sym-link-s:before {
+  content: "";
+}
+.sym-link:before {
+  content: "";
+}
+.sym-lit-s:before {
+  content: "";
+}
+.sym-lit:before {
+  content: "";
+}
+.sym-lmc-s:before {
+  content: "";
+}
+.sym-lmc:before {
+  content: "";
+}
+.sym-lml-s:before {
+  content: "";
+}
+.sym-lml:before {
+  content: "";
+}
+.sym-lmwr-s:before {
+  content: "";
+}
+.sym-lmwr:before {
+  content: "";
+}
+.sym-lnc-s:before {
+  content: "";
+}
+.sym-lnc:before {
+  content: "";
+}
+.sym-lnd-s:before {
+  content: "";
+}
+.sym-lnd:before {
+  content: "";
+}
+.sym-loc-s:before {
+  content: "";
+}
+.sym-loc:before {
+  content: "";
+}
+.sym-loka-s:before {
+  content: "";
+}
+.sym-loka:before {
+  content: "";
+}
+.sym-looks-s:before {
+  content: "";
+}
+.sym-looks:before {
+  content: "";
+}
+.sym-loom-s:before {
+  content: "";
+}
+.sym-loom:before {
+  content: "";
+}
+.sym-lpt-s:before {
+  content: "";
+}
+.sym-lpt:before {
+  content: "";
+}
+.sym-lqty-s:before {
+  content: "";
+}
+.sym-lqty:before {
+  content: "";
+}
+.sym-lrc-s:before {
+  content: "";
+}
+.sym-lrc:before {
+  content: "";
+}
+.sym-lrn-s:before {
+  content: "";
+}
+.sym-lrn:before {
+  content: "";
+}
+.sym-lsk-s:before {
+  content: "";
+}
+.sym-lsk:before {
+  content: "";
+}
+.sym-ltc-s:before {
+  content: "";
+}
+.sym-ltc:before {
+  content: "";
+}
+.sym-lto-s:before {
+  content: "";
+}
+.sym-lto:before {
+  content: "";
+}
+.sym-lun-s:before {
+  content: "";
+}
+.sym-lun:before {
+  content: "";
+}
+.sym-luna-s:before {
+  content: "";
+}
+.sym-luna:before {
+  content: "";
+}
+.sym-luna2-s:before {
+  content: "";
+}
+.sym-luna2:before {
+  content: "";
+}
+.sym-lxt-s:before {
+  content: "";
+}
+.sym-lxt:before {
+  content: "";
+}
+.sym-lym-s:before {
+  content: "";
+}
+.sym-lym:before {
+  content: "";
+}
+.sym-m2k-s:before {
+  content: "";
+}
+.sym-m2k:before {
+  content: "";
+}
+.sym-ma-s:before {
+  content: "";
+}
+.sym-ma:before {
+  content: "";
+}
+.sym-magic-s:before {
+  content: "";
+}
+.sym-magic:before {
+  content: "";
+}
+.sym-maid-s:before {
+  content: "";
+}
+.sym-maid:before {
+  content: "";
+}
+.sym-man-s:before {
+  content: "";
+}
+.sym-man:before {
+  content: "";
+}
+.sym-mana-s:before {
+  content: "";
+}
+.sym-mana:before {
+  content: "";
+}
+.sym-maps-s:before {
+  content: "";
+}
+.sym-maps:before {
+  content: "";
+}
+.sym-mask-s:before {
+  content: "";
+}
+.sym-mask:before {
+  content: "";
+}
+.sym-mass-s:before {
+  content: "";
+}
+.sym-mass:before {
+  content: "";
+}
+.sym-math-s:before {
+  content: "";
+}
+.sym-math:before {
+  content: "";
+}
+.sym-matic-s:before {
+  content: "";
+}
+.sym-matic:before {
+  content: "";
+}
+.sym-mbl-s:before {
+  content: "";
+}
+.sym-mbl:before {
+  content: "";
+}
+.sym-mbt-s:before {
+  content: "";
+}
+.sym-mbt:before {
+  content: "";
+}
+.sym-mc-s:before {
+  content: "";
+}
+.sym-mc:before {
+  content: "";
+}
+.sym-mco-s:before {
+  content: "";
+}
+.sym-mco:before {
+  content: "";
+}
+.sym-mda-s:before {
+  content: "";
+}
+.sym-mda:before {
+  content: "";
+}
+.sym-mds-s:before {
+  content: "";
+}
+.sym-mds:before {
+  content: "";
+}
+.sym-mdt-s:before {
+  content: "";
+}
+.sym-mdt:before {
+  content: "";
+}
+.sym-mdx-s:before {
+  content: "";
+}
+.sym-mdx:before {
+  content: "";
+}
+.sym-med-s:before {
+  content: "";
+}
+.sym-med:before {
+  content: "";
+}
+.sym-mer-s:before {
+  content: "";
+}
+.sym-mer:before {
+  content: "";
+}
+.sym-mes-s:before {
+  content: "";
+}
+.sym-mes:before {
+  content: "";
+}
+.sym-met-s:before {
+  content: "";
+}
+.sym-met:before {
+  content: "";
+}
+.sym-meta-s:before {
+  content: "";
+}
+.sym-meta:before {
+  content: "";
+}
+.sym-metis-s:before {
+  content: "";
+}
+.sym-metis:before {
+  content: "";
+}
+.sym-mft-s:before {
+  content: "";
+}
+.sym-mft:before {
+  content: "";
+}
+.sym-mgc-s:before {
+  content: "";
+}
+.sym-mgc:before {
+  content: "";
+}
+.sym-mgo-s:before {
+  content: "";
+}
+.sym-mgo:before {
+  content: "";
+}
+.sym-mhc-s:before {
+  content: "";
+}
+.sym-mhc:before {
+  content: "";
+}
+.sym-mina-s:before {
+  content: "";
+}
+.sym-mina:before {
+  content: "";
+}
+.sym-mir-s:before {
+  content: "";
+}
+.sym-mir:before {
+  content: "";
+}
+.sym-mith-s:before {
+  content: "";
+}
+.sym-mith:before {
+  content: "";
+}
+.sym-mitx-s:before {
+  content: "";
+}
+.sym-mitx:before {
+  content: "";
+}
+.sym-mjp-s:before {
+  content: "";
+}
+.sym-mjp:before {
+  content: "";
+}
+.sym-mkr-s:before {
+  content: "";
+}
+.sym-mkr:before {
+  content: "";
+}
+.sym-mln-s:before {
+  content: "";
+}
+.sym-mln:before {
+  content: "";
+}
+.sym-mngo-s:before {
+  content: "";
+}
+.sym-mngo:before {
+  content: "";
+}
+.sym-mnx-s:before {
+  content: "";
+}
+.sym-mnx:before {
+  content: "";
+}
+.sym-moac-s:before {
+  content: "";
+}
+.sym-moac:before {
+  content: "";
+}
+.sym-mob-s:before {
+  content: "";
+}
+.sym-mob:before {
+  content: "";
+}
+.sym-mobi-s:before {
+  content: "";
+}
+.sym-mobi:before {
+  content: "";
+}
+.sym-moc-s:before {
+  content: "";
+}
+.sym-moc:before {
+  content: "";
+}
+.sym-mod-s:before {
+  content: "";
+}
+.sym-mod:before {
+  content: "";
+}
+.sym-mona-s:before {
+  content: "";
+}
+.sym-mona:before {
+  content: "";
+}
+.sym-moon-s:before {
+  content: "";
+}
+.sym-moon:before {
+  content: "";
+}
+.sym-morph-s:before {
+  content: "";
+}
+.sym-morph:before {
+  content: "";
+}
+.sym-movr-s:before {
+  content: "";
+}
+.sym-movr:before {
+  content: "";
+}
+.sym-mpl-s:before {
+  content: "";
+}
+.sym-mpl:before {
+  content: "";
+}
+.sym-mrk-s:before {
+  content: "";
+}
+.sym-mrk:before {
+  content: "";
+}
+.sym-msol-s:before {
+  content: "";
+}
+.sym-msol:before {
+  content: "";
+}
+.sym-msp-s:before {
+  content: "";
+}
+.sym-msp:before {
+  content: "";
+}
+.sym-mta-s:before {
+  content: "";
+}
+.sym-mta:before {
+  content: "";
+}
+.sym-mtc-s:before {
+  content: "";
+}
+.sym-mtc:before {
+  content: "";
+}
+.sym-mth-s:before {
+  content: "";
+}
+.sym-mth:before {
+  content: "";
+}
+.sym-mtl-s:before {
+  content: "";
+}
+.sym-mtl:before {
+  content: "";
+}
+.sym-mtn-s:before {
+  content: "";
+}
+.sym-mtn:before {
+  content: "";
+}
+.sym-mtx-s:before {
+  content: "";
+}
+.sym-mtx:before {
+  content: "";
+}
+.sym-mue-s:before {
+  content: "";
+}
+.sym-mue:before {
+  content: "";
+}
+.sym-multi-s:before {
+  content: "";
+}
+.sym-multi:before {
+  content: "";
+}
+.sym-mv-s:before {
+  content: "";
+}
+.sym-mv:before {
+  content: "";
+}
+.sym-mx-s:before {
+  content: "";
+}
+.sym-mx:before {
+  content: "";
+}
+.sym-mxc-s:before {
+  content: "";
+}
+.sym-mxc:before {
+  content: "";
+}
+.sym-mxm-s:before {
+  content: "";
+}
+.sym-mxm:before {
+  content: "";
+}
+.sym-mxn-s:before {
+  content: "";
+}
+.sym-mxn:before {
+  content: "";
+}
+.sym-myr-s:before {
+  content: "";
+}
+.sym-myr:before {
+  content: "";
+}
+.sym-n9l-s:before {
+  content: "";
+}
+.sym-n9l:before {
+  content: "";
+}
+.sym-nanj-s:before {
+  content: "";
+}
+.sym-nanj:before {
+  content: "";
+}
+.sym-nano-s:before {
+  content: "";
+}
+.sym-nano:before {
+  content: "";
+}
+.sym-nas-s:before {
+  content: "";
+}
+.sym-nas:before {
+  content: "";
+}
+.sym-naut-s:before {
+  content: "";
+}
+.sym-naut:before {
+  content: "";
+}
+.sym-nav-s:before {
+  content: "";
+}
+.sym-nav:before {
+  content: "";
+}
+.sym-ncash-s:before {
+  content: "";
+}
+.sym-ncash:before {
+  content: "";
+}
+.sym-nct-s:before {
+  content: "";
+}
+.sym-nct:before {
+  content: "";
+}
+.sym-near-s:before {
+  content: "";
+}
+.sym-near:before {
+  content: "";
+}
+.sym-nebl-s:before {
+  content: "";
+}
+.sym-nebl:before {
+  content: "";
+}
+.sym-nec-s:before {
+  content: "";
+}
+.sym-nec:before {
+  content: "";
+}
+.sym-neo-s:before {
+  content: "";
+}
+.sym-neo:before {
+  content: "";
+}
+.sym-neos-s:before {
+  content: "";
+}
+.sym-neos:before {
+  content: "";
+}
+.sym-nest-s:before {
+  content: "";
+}
+.sym-nest:before {
+  content: "";
+}
+.sym-neu-s:before {
+  content: "";
+}
+.sym-neu:before {
+  content: "";
+}
+.sym-new-s:before {
+  content: "";
+}
+.sym-new:before {
+  content: "";
+}
+.sym-nexo-s:before {
+  content: "";
+}
+.sym-nexo:before {
+  content: "";
+}
+.sym-nft-s:before {
+  content: "";
+}
+.sym-nft:before {
+  content: "";
+}
+.sym-ng-s:before {
+  content: "";
+}
+.sym-ng:before {
+  content: "";
+}
+.sym-ngc-s:before {
+  content: "";
+}
+.sym-ngc:before {
+  content: "";
+}
+.sym-ngn-s:before {
+  content: "";
+}
+.sym-ngn:before {
+  content: "";
+}
+.sym-nim-s:before {
+  content: "";
+}
+.sym-nim:before {
+  content: "";
+}
+.sym-niy-s:before {
+  content: "";
+}
+.sym-niy:before {
+  content: "";
+}
+.sym-nkd-s:before {
+  content: "";
+}
+.sym-nkd:before {
+  content: "";
+}
+.sym-nkn-s:before {
+  content: "";
+}
+.sym-nkn:before {
+  content: "";
+}
+.sym-nlc2-s:before {
+  content: "";
+}
+.sym-nlc2:before {
+  content: "";
+}
+.sym-nlg-s:before {
+  content: "";
+}
+.sym-nlg:before {
+  content: "";
+}
+.sym-nmc-s:before {
+  content: "";
+}
+.sym-nmc:before {
+  content: "";
+}
+.sym-nmr-s:before {
+  content: "";
+}
+.sym-nmr:before {
+  content: "";
+}
+.sym-nn-s:before {
+  content: "";
+}
+.sym-nn:before {
+  content: "";
+}
+.sym-noah-s:before {
+  content: "";
+}
+.sym-noah:before {
+  content: "";
+}
+.sym-nodl-s:before {
+  content: "";
+}
+.sym-nodl:before {
+  content: "";
+}
+.sym-note-s:before {
+  content: "";
+}
+.sym-note:before {
+  content: "";
+}
+.sym-npg-s:before {
+  content: "";
+}
+.sym-npg:before {
+  content: "";
+}
+.sym-nplc-s:before {
+  content: "";
+}
+.sym-nplc:before {
+  content: "";
+}
+.sym-npxs-s:before {
+  content: "";
+}
+.sym-npxs:before {
+  content: "";
+}
+.sym-nq-s:before {
+  content: "";
+}
+.sym-nq:before {
+  content: "";
+}
+.sym-nrg-s:before {
+  content: "";
+}
+.sym-nrg:before {
+  content: "";
+}
+.sym-ntk-s:before {
+  content: "";
+}
+.sym-ntk:before {
+  content: "";
+}
+.sym-nu-s:before {
+  content: "";
+}
+.sym-nu:before {
+  content: "";
+}
+.sym-nuls-s:before {
+  content: "";
+}
+.sym-nuls:before {
+  content: "";
+}
+.sym-nvc-s:before {
+  content: "";
+}
+.sym-nvc:before {
+  content: "";
+}
+.sym-nxc-s:before {
+  content: "";
+}
+.sym-nxc:before {
+  content: "";
+}
+.sym-nxs-s:before {
+  content: "";
+}
+.sym-nxs:before {
+  content: "";
+}
+.sym-nxt-s:before {
+  content: "";
+}
+.sym-nxt:before {
+  content: "";
+}
+.sym-nym-s:before {
+  content: "";
+}
+.sym-nym:before {
+  content: "";
+}
+.sym-o-s:before {
+  content: "";
+}
+.sym-o:before {
+  content: "";
+}
+.sym-oak-s:before {
+  content: "";
+}
+.sym-oak:before {
+  content: "";
+}
+.sym-oax-s:before {
+  content: "";
+}
+.sym-oax:before {
+  content: "";
+}
+.sym-ocean-s:before {
+  content: "";
+}
+.sym-ocean:before {
+  content: "";
+}
+.sym-ocn-s:before {
+  content: "";
+}
+.sym-ocn:before {
+  content: "";
+}
+.sym-ode-s:before {
+  content: "";
+}
+.sym-ode:before {
+  content: "";
+}
+.sym-ogn-s:before {
+  content: "";
+}
+.sym-ogn:before {
+  content: "";
+}
+.sym-ogo-s:before {
+  content: "";
+}
+.sym-ogo:before {
+  content: "";
+}
+.sym-ok-s:before {
+  content: "";
+}
+.sym-ok:before {
+  content: "";
+}
+.sym-okb-s:before {
+  content: "";
+}
+.sym-okb:before {
+  content: "";
+}
+.sym-om-s:before {
+  content: "";
+}
+.sym-om:before {
+  content: "";
+}
+.sym-omg-s:before {
+  content: "";
+}
+.sym-omg:before {
+  content: "";
+}
+.sym-omni-s:before {
+  content: "";
+}
+.sym-omni:before {
+  content: "";
+}
+.sym-one-s:before {
+  content: "";
+}
+.sym-one:before {
+  content: "";
+}
+.sym-ong-s:before {
+  content: "";
+}
+.sym-ong:before {
+  content: "";
+}
+.sym-onot-s:before {
+  content: "";
+}
+.sym-onot:before {
+  content: "";
+}
+.sym-ont-s:before {
+  content: "";
+}
+.sym-ont:before {
+  content: "";
+}
+.sym-ooki-s:before {
+  content: "";
+}
+.sym-ooki:before {
+  content: "";
+}
+.sym-orbs-s:before {
+  content: "";
+}
+.sym-orbs:before {
+  content: "";
+}
+.sym-orca-s:before {
+  content: "";
+}
+.sym-orca:before {
+  content: "";
+}
+.sym-orme-s:before {
+  content: "";
+}
+.sym-orme:before {
+  content: "";
+}
+.sym-orn-s:before {
+  content: "";
+}
+.sym-orn:before {
+  content: "";
+}
+.sym-ors-s:before {
+  content: "";
+}
+.sym-ors:before {
+  content: "";
+}
+.sym-osmo-s:before {
+  content: "";
+}
+.sym-osmo:before {
+  content: "";
+}
+.sym-ost-s:before {
+  content: "";
+}
+.sym-ost:before {
+  content: "";
+}
+.sym-otn-s:before {
+  content: "";
+}
+.sym-otn:before {
+  content: "";
+}
+.sym-oxt-s:before {
+  content: "";
+}
+.sym-oxt:before {
+  content: "";
+}
+.sym-oxy-s:before {
+  content: "";
+}
+.sym-oxy:before {
+  content: "";
+}
+.sym-pai-s:before {
+  content: "";
+}
+.sym-pai:before {
+  content: "";
+}
+.sym-pal-s:before {
+  content: "";
+}
+.sym-pal:before {
+  content: "";
+}
+.sym-paper-s:before {
+  content: "";
+}
+.sym-paper:before {
+  content: "";
+}
+.sym-para-s:before {
+  content: "";
+}
+.sym-para:before {
+  content: "";
+}
+.sym-part-s:before {
+  content: "";
+}
+.sym-part:before {
+  content: "";
+}
+.sym-pasc-s:before {
+  content: "";
+}
+.sym-pasc:before {
+  content: "";
+}
+.sym-pat-s:before {
+  content: "";
+}
+.sym-pat:before {
+  content: "";
+}
+.sym-pax-s:before {
+  content: "";
+}
+.sym-pax:before {
+  content: "";
+}
+.sym-paxg-s:before {
+  content: "";
+}
+.sym-paxg:before {
+  content: "";
+}
+.sym-pay-s:before {
+  content: "";
+}
+.sym-pay:before {
+  content: "";
+}
+.sym-pbt-s:before {
+  content: "";
+}
+.sym-pbt:before {
+  content: "";
+}
+.sym-pcl-s:before {
+  content: "";
+}
+.sym-pcl:before {
+  content: "";
+}
+.sym-pcx-s:before {
+  content: "";
+}
+.sym-pcx:before {
+  content: "";
+}
+.sym-pdex-s:before {
+  content: "";
+}
+.sym-pdex:before {
+  content: "";
+}
+.sym-people-s:before {
+  content: "";
+}
+.sym-people:before {
+  content: "";
+}
+.sym-perl-s:before {
+  content: "";
+}
+.sym-perl:before {
+  content: "";
+}
+.sym-perp-s:before {
+  content: "";
+}
+.sym-perp:before {
+  content: "";
+}
+.sym-pha-s:before {
+  content: "";
+}
+.sym-pha:before {
+  content: "";
+}
+.sym-phb-s:before {
+  content: "";
+}
+.sym-phb:before {
+  content: "";
+}
+.sym-php-s:before {
+  content: "";
+}
+.sym-php:before {
+  content: "";
+}
+.sym-phx-s:before {
+  content: "";
+}
+.sym-phx:before {
+  content: "";
+}
+.sym-pi-s:before {
+  content: "";
+}
+.sym-pi:before {
+  content: "";
+}
+.sym-pica-s:before {
+  content: "";
+}
+.sym-pica:before {
+  content: "";
+}
+.sym-pink-s:before {
+  content: "";
+}
+.sym-pink:before {
+  content: "";
+}
+.sym-pivx-s:before {
+  content: "";
+}
+.sym-pivx:before {
+  content: "";
+}
+.sym-pkt-s:before {
+  content: "";
+}
+.sym-pkt:before {
+  content: "";
+}
+.sym-pl-s:before {
+  content: "";
+}
+.sym-pl:before {
+  content: "";
+}
+.sym-pla-s:before {
+  content: "";
+}
+.sym-pla:before {
+  content: "";
+}
+.sym-plbt-s:before {
+  content: "";
+}
+.sym-plbt:before {
+  content: "";
+}
+.sym-plm-s:before {
+  content: "";
+}
+.sym-plm:before {
+  content: "";
+}
+.sym-pln-s:before {
+  content: "";
+}
+.sym-pln:before {
+  content: "";
+}
+.sym-plr-s:before {
+  content: "";
+}
+.sym-plr:before {
+  content: "";
+}
+.sym-ply-s:before {
+  content: "";
+}
+.sym-ply:before {
+  content: "";
+}
+.sym-pma-s:before {
+  content: "";
+}
+.sym-pma:before {
+  content: "";
+}
+.sym-png-s:before {
+  content: "";
+}
+.sym-png:before {
+  content: "";
+}
+.sym-pnt-s:before {
+  content: "";
+}
+.sym-pnt:before {
+  content: "";
+}
+.sym-poa-s:before {
+  content: "";
+}
+.sym-poa:before {
+  content: "";
+}
+.sym-poe-s:before {
+  content: "";
+}
+.sym-poe:before {
+  content: "";
+}
+.sym-polis-s:before {
+  content: "";
+}
+.sym-polis:before {
+  content: "";
+}
+.sym-pols-s:before {
+  content: "";
+}
+.sym-pols:before {
+  content: "";
+}
+.sym-poly-s:before {
+  content: "";
+}
+.sym-poly:before {
+  content: "";
+}
+.sym-pond-s:before {
+  content: "";
+}
+.sym-pond:before {
+  content: "";
+}
+.sym-pot-s:before {
+  content: "";
+}
+.sym-pot:before {
+  content: "";
+}
+.sym-powr-s:before {
+  content: "";
+}
+.sym-powr:before {
+  content: "";
+}
+.sym-ppc-s:before {
+  content: "";
+}
+.sym-ppc:before {
+  content: "";
+}
+.sym-ppt-s:before {
+  content: "";
+}
+.sym-ppt:before {
+  content: "";
+}
+.sym-pra-s:before {
+  content: "";
+}
+.sym-pra:before {
+  content: "";
+}
+.sym-pre-s:before {
+  content: "";
+}
+.sym-pre:before {
+  content: "";
+}
+.sym-prg-s:before {
+  content: "";
+}
+.sym-prg:before {
+  content: "";
+}
+.sym-pro-s:before {
+  content: "";
+}
+.sym-pro:before {
+  content: "";
+}
+.sym-prq-s:before {
+  content: "";
+}
+.sym-prq:before {
+  content: "";
+}
+.sym-pst-s:before {
+  content: "";
+}
+.sym-pst:before {
+  content: "";
+}
+.sym-pstake-s:before {
+  content: "";
+}
+.sym-pstake:before {
+  content: "";
+}
+.sym-pton-s:before {
+  content: "";
+}
+.sym-pton:before {
+  content: "";
+}
+.sym-pundix-s:before {
+  content: "";
+}
+.sym-pundix:before {
+  content: "";
+}
+.sym-pvt-s:before {
+  content: "";
+}
+.sym-pvt:before {
+  content: "";
+}
+.sym-pxg-s:before {
+  content: "";
+}
+.sym-pxg:before {
+  content: "";
+}
+.sym-pyr-s:before {
+  content: "";
+}
+.sym-pyr:before {
+  content: "";
+}
+.sym-qash-s:before {
+  content: "";
+}
+.sym-qash:before {
+  content: "";
+}
+.sym-qau-s:before {
+  content: "";
+}
+.sym-qau:before {
+  content: "";
+}
+.sym-qc-s:before {
+  content: "";
+}
+.sym-qc:before {
+  content: "";
+}
+.sym-qi-s:before {
+  content: "";
+}
+.sym-qi:before {
+  content: "";
+}
+.sym-qi2-s:before {
+  content: "";
+}
+.sym-qi2:before {
+  content: "";
+}
+.sym-qkc-s:before {
+  content: "";
+}
+.sym-qkc:before {
+  content: "";
+}
+.sym-qlc-s:before {
+  content: "";
+}
+.sym-qlc:before {
+  content: "";
+}
+.sym-qnt-s:before {
+  content: "";
+}
+.sym-qnt:before {
+  content: "";
+}
+.sym-qntu-s:before {
+  content: "";
+}
+.sym-qntu:before {
+  content: "";
+}
+.sym-qo-s:before {
+  content: "";
+}
+.sym-qo:before {
+  content: "";
+}
+.sym-qrdo-s:before {
+  content: "";
+}
+.sym-qrdo:before {
+  content: "";
+}
+.sym-qrl-s:before {
+  content: "";
+}
+.sym-qrl:before {
+  content: "";
+}
+.sym-qsp-s:before {
+  content: "";
+}
+.sym-qsp:before {
+  content: "";
+}
+.sym-qtum-s:before {
+  content: "";
+}
+.sym-qtum:before {
+  content: "";
+}
+.sym-quick-s:before {
+  content: "";
+}
+.sym-quick:before {
+  content: "";
+}
+.sym-qun-s:before {
+  content: "";
+}
+.sym-qun:before {
+  content: "";
+}
+.sym-r-s:before {
+  content: "";
+}
+.sym-r:before {
+  content: "";
+}
+.sym-rad-s:before {
+  content: "";
+}
+.sym-rad:before {
+  content: "";
+}
+.sym-radar-s:before {
+  content: "";
+}
+.sym-radar:before {
+  content: "";
+}
+.sym-rads-s:before {
+  content: "";
+}
+.sym-rads:before {
+  content: "";
+}
+.sym-ramp-s:before {
+  content: "";
+}
+.sym-ramp:before {
+  content: "";
+}
+.sym-rare-s:before {
+  content: "";
+}
+.sym-rare:before {
+  content: "";
+}
+.sym-rari-s:before {
+  content: "";
+}
+.sym-rari:before {
+  content: "";
+}
+.sym-rating-s:before {
+  content: "";
+}
+.sym-rating:before {
+  content: "";
+}
+.sym-ray-s:before {
+  content: "";
+}
+.sym-ray:before {
+  content: "";
+}
+.sym-rb-s:before {
+  content: "";
+}
+.sym-rb:before {
+  content: "";
+}
+.sym-rbc-s:before {
+  content: "";
+}
+.sym-rbc:before {
+  content: "";
+}
+.sym-rblx-s:before {
+  content: "";
+}
+.sym-rblx:before {
+  content: "";
+}
+.sym-rbn-s:before {
+  content: "";
+}
+.sym-rbn:before {
+  content: "";
+}
+.sym-rbtc-s:before {
+  content: "";
+}
+.sym-rbtc:before {
+  content: "";
+}
+.sym-rby-s:before {
+  content: "";
+}
+.sym-rby:before {
+  content: "";
+}
+.sym-rcn-s:before {
+  content: "";
+}
+.sym-rcn:before {
+  content: "";
+}
+.sym-rdd-s:before {
+  content: "";
+}
+.sym-rdd:before {
+  content: "";
+}
+.sym-rdn-s:before {
+  content: "";
+}
+.sym-rdn:before {
+  content: "";
+}
+.sym-real-s:before {
+  content: "";
+}
+.sym-real:before {
+  content: "";
+}
+.sym-reef-s:before {
+  content: "";
+}
+.sym-reef:before {
+  content: "";
+}
+.sym-rem-s:before {
+  content: "";
+}
+.sym-rem:before {
+  content: "";
+}
+.sym-ren-s:before {
+  content: "";
+}
+.sym-ren:before {
+  content: "";
+}
+.sym-rep-s:before {
+  content: "";
+}
+.sym-rep:before {
+  content: "";
+}
+.sym-repv2-s:before {
+  content: "";
+}
+.sym-repv2:before {
+  content: "";
+}
+.sym-req-s:before {
+  content: "";
+}
+.sym-req:before {
+  content: "";
+}
+.sym-rev-s:before {
+  content: "";
+}
+.sym-rev:before {
+  content: "";
+}
+.sym-revv-s:before {
+  content: "";
+}
+.sym-revv:before {
+  content: "";
+}
+.sym-rfox-s:before {
+  content: "";
+}
+.sym-rfox:before {
+  content: "";
+}
+.sym-rfr-s:before {
+  content: "";
+}
+.sym-rfr:before {
+  content: "";
+}
+.sym-ric-s:before {
+  content: "";
+}
+.sym-ric:before {
+  content: "";
+}
+.sym-rif-s:before {
+  content: "";
+}
+.sym-rif:before {
+  content: "";
+}
+.sym-ring-s:before {
+  content: "";
+}
+.sym-ring:before {
+  content: "";
+}
+.sym-rlc-s:before {
+  content: "";
+}
+.sym-rlc:before {
+  content: "";
+}
+.sym-rly-s:before {
+  content: "";
+}
+.sym-rly:before {
+  content: "";
+}
+.sym-rmrk-s:before {
+  content: "";
+}
+.sym-rmrk:before {
+  content: "";
+}
+.sym-rndr-s:before {
+  content: "";
+}
+.sym-rndr:before {
+  content: "";
+}
+.sym-rntb-s:before {
+  content: "";
+}
+.sym-rntb:before {
+  content: "";
+}
+.sym-ron-s:before {
+  content: "";
+}
+.sym-ron:before {
+  content: "";
+}
+.sym-rook-s:before {
+  content: "";
+}
+.sym-rook:before {
+  content: "";
+}
+.sym-rose-s:before {
+  content: "";
+}
+.sym-rose:before {
+  content: "";
+}
+.sym-rox-s:before {
+  content: "";
+}
+.sym-rox:before {
+  content: "";
+}
+.sym-rp-s:before {
+  content: "";
+}
+.sym-rp:before {
+  content: "";
+}
+.sym-rpl-s:before {
+  content: "";
+}
+.sym-rpl:before {
+  content: "";
+}
+.sym-rpx-s:before {
+  content: "";
+}
+.sym-rpx:before {
+  content: "";
+}
+.sym-rsr-s:before {
+  content: "";
+}
+.sym-rsr:before {
+  content: "";
+}
+.sym-rsv-s:before {
+  content: "";
+}
+.sym-rsv:before {
+  content: "";
+}
+.sym-rty-s:before {
+  content: "";
+}
+.sym-rty:before {
+  content: "";
+}
+.sym-rub-s:before {
+  content: "";
+}
+.sym-rub:before {
+  content: "";
+}
+.sym-ruff-s:before {
+  content: "";
+}
+.sym-ruff:before {
+  content: "";
+}
+.sym-rune-s:before {
+  content: "";
+}
+.sym-rune:before {
+  content: "";
+}
+.sym-rvn-s:before {
+  content: "";
+}
+.sym-rvn:before {
+  content: "";
+}
+.sym-rvr-s:before {
+  content: "";
+}
+.sym-rvr:before {
+  content: "";
+}
+.sym-rvt-s:before {
+  content: "";
+}
+.sym-rvt:before {
+  content: "";
+}
+.sym-sai-s:before {
+  content: "";
+}
+.sym-sai:before {
+  content: "";
+}
+.sym-salt-s:before {
+  content: "";
+}
+.sym-salt:before {
+  content: "";
+}
+.sym-samo-s:before {
+  content: "";
+}
+.sym-samo:before {
+  content: "";
+}
+.sym-san-s:before {
+  content: "";
+}
+.sym-san:before {
+  content: "";
+}
+.sym-sand-s:before {
+  content: "";
+}
+.sym-sand:before {
+  content: "";
+}
+.sym-sats-s:before {
+  content: "";
+}
+.sym-sats:before {
+  content: "";
+}
+.sym-sbd-s:before {
+  content: "";
+}
+.sym-sbd:before {
+  content: "";
+}
+.sym-sbr-s:before {
+  content: "";
+}
+.sym-sbr:before {
+  content: "";
+}
+.sym-sc-s:before {
+  content: "";
+}
+.sym-sc:before {
+  content: "";
+}
+.sym-scc-s:before {
+  content: "";
+}
+.sym-scc:before {
+  content: "";
+}
+.sym-scrt-s:before {
+  content: "";
+}
+.sym-scrt:before {
+  content: "";
+}
+.sym-sdc-s:before {
+  content: "";
+}
+.sym-sdc:before {
+  content: "";
+}
+.sym-sdn-s:before {
+  content: "";
+}
+.sym-sdn:before {
+  content: "";
+}
+.sym-seele-s:before {
+  content: "";
+}
+.sym-seele:before {
+  content: "";
+}
+.sym-sek-s:before {
+  content: "";
+}
+.sym-sek:before {
+  content: "";
+}
+.sym-sen-s:before {
+  content: "";
+}
+.sym-sen:before {
+  content: "";
+}
+.sym-sent-s:before {
+  content: "";
+}
+.sym-sent:before {
+  content: "";
+}
+.sym-sero-s:before {
+  content: "";
+}
+.sym-sero:before {
+  content: "";
+}
+.sym-sexc-s:before {
+  content: "";
+}
+.sym-sexc:before {
+  content: "";
+}
+.sym-sfp-s:before {
+  content: "";
+}
+.sym-sfp:before {
+  content: "";
+}
+.sym-sgb-s:before {
+  content: "";
+}
+.sym-sgb:before {
+  content: "";
+}
+.sym-sgc-s:before {
+  content: "";
+}
+.sym-sgc:before {
+  content: "";
+}
+.sym-sgd-s:before {
+  content: "";
+}
+.sym-sgd:before {
+  content: "";
+}
+.sym-sgn-s:before {
+  content: "";
+}
+.sym-sgn:before {
+  content: "";
+}
+.sym-sgu-s:before {
+  content: "";
+}
+.sym-sgu:before {
+  content: "";
+}
+.sym-shib-s:before {
+  content: "";
+}
+.sym-shib:before {
+  content: "";
+}
+.sym-shift-s:before {
+  content: "";
+}
+.sym-shift:before {
+  content: "";
+}
+.sym-ship-s:before {
+  content: "";
+}
+.sym-ship:before {
+  content: "";
+}
+.sym-shping-s:before {
+  content: "";
+}
+.sym-shping:before {
+  content: "";
+}
+.sym-si-s:before {
+  content: "";
+}
+.sym-si:before {
+  content: "";
+}
+.sym-sib-s:before {
+  content: "";
+}
+.sym-sib:before {
+  content: "";
+}
+.sym-sil-s:before {
+  content: "";
+}
+.sym-sil:before {
+  content: "";
+}
+.sym-six-s:before {
+  content: "";
+}
+.sym-six:before {
+  content: "";
+}
+.sym-sjcx-s:before {
+  content: "";
+}
+.sym-sjcx:before {
+  content: "";
+}
+.sym-skl-s:before {
+  content: "";
+}
+.sym-skl:before {
+  content: "";
+}
+.sym-skm-s:before {
+  content: "";
+}
+.sym-skm:before {
+  content: "";
+}
+.sym-sku-s:before {
+  content: "";
+}
+.sym-sku:before {
+  content: "";
+}
+.sym-sky-s:before {
+  content: "";
+}
+.sym-sky:before {
+  content: "";
+}
+.sym-slp-s:before {
+  content: "";
+}
+.sym-slp:before {
+  content: "";
+}
+.sym-slr-s:before {
+  content: "";
+}
+.sym-slr:before {
+  content: "";
+}
+.sym-sls-s:before {
+  content: "";
+}
+.sym-sls:before {
+  content: "";
+}
+.sym-slt-s:before {
+  content: "";
+}
+.sym-slt:before {
+  content: "";
+}
+.sym-slv-s:before {
+  content: "";
+}
+.sym-slv:before {
+  content: "";
+}
+.sym-smart-s:before {
+  content: "";
+}
+.sym-smart:before {
+  content: "";
+}
+.sym-smn-s:before {
+  content: "";
+}
+.sym-smn:before {
+  content: "";
+}
+.sym-smt-s:before {
+  content: "";
+}
+.sym-smt:before {
+  content: "";
+}
+.sym-snc-s:before {
+  content: "";
+}
+.sym-snc:before {
+  content: "";
+}
+.sym-snet-s:before {
+  content: "";
+}
+.sym-snet:before {
+  content: "";
+}
+.sym-sngls-s:before {
+  content: "";
+}
+.sym-sngls:before {
+  content: "";
+}
+.sym-snm-s:before {
+  content: "";
+}
+.sym-snm:before {
+  content: "";
+}
+.sym-snt-s:before {
+  content: "";
+}
+.sym-snt:before {
+  content: "";
+}
+.sym-snx-s:before {
+  content: "";
+}
+.sym-snx:before {
+  content: "";
+}
+.sym-soc-s:before {
+  content: "";
+}
+.sym-soc:before {
+  content: "";
+}
+.sym-socks-s:before {
+  content: "";
+}
+.sym-socks:before {
+  content: "";
+}
+.sym-sol-s:before {
+  content: "";
+}
+.sym-sol:before {
+  content: "";
+}
+.sym-solid-s:before {
+  content: "";
+}
+.sym-solid:before {
+  content: "";
+}
+.sym-solo-s:before {
+  content: "";
+}
+.sym-solo:before {
+  content: "";
+}
+.sym-solve-s:before {
+  content: "";
+}
+.sym-solve:before {
+  content: "";
+}
+.sym-sos-s:before {
+  content: "";
+}
+.sym-sos:before {
+  content: "";
+}
+.sym-soul-s:before {
+  content: "";
+}
+.sym-soul:before {
+  content: "";
+}
+.sym-sp-s:before {
+  content: "";
+}
+.sym-sp:before {
+  content: "";
+}
+.sym-sparta-s:before {
+  content: "";
+}
+.sym-sparta:before {
+  content: "";
+}
+.sym-spc-s:before {
+  content: "";
+}
+.sym-spc:before {
+  content: "";
+}
+.sym-spd-s:before {
+  content: "";
+}
+.sym-spd:before {
+  content: "";
+}
+.sym-spell-s:before {
+  content: "";
+}
+.sym-spell:before {
+  content: "";
+}
+.sym-sphr-s:before {
+  content: "";
+}
+.sym-sphr:before {
+  content: "";
+}
+.sym-sphtx-s:before {
+  content: "";
+}
+.sym-sphtx:before {
+  content: "";
+}
+.sym-spnd-s:before {
+  content: "";
+}
+.sym-spnd:before {
+  content: "";
+}
+.sym-spnk-s:before {
+  content: "";
+}
+.sym-spnk:before {
+  content: "";
+}
+.sym-srm-s:before {
+  content: "";
+}
+.sym-srm:before {
+  content: "";
+}
+.sym-srn-s:before {
+  content: "";
+}
+.sym-srn:before {
+  content: "";
+}
+.sym-ssp-s:before {
+  content: "";
+}
+.sym-ssp:before {
+  content: "";
+}
+.sym-ssv-s:before {
+  content: "";
+}
+.sym-ssv:before {
+  content: "";
+}
+.sym-stacs-s:before {
+  content: "";
+}
+.sym-stacs:before {
+  content: "";
+}
+.sym-step-s:before {
+  content: "";
+}
+.sym-step:before {
+  content: "";
+}
+.sym-stg-s:before {
+  content: "";
+}
+.sym-stg:before {
+  content: "";
+}
+.sym-stmx-s:before {
+  content: "";
+}
+.sym-stmx:before {
+  content: "";
+}
+.sym-storm-s:before {
+  content: "";
+}
+.sym-storm:before {
+  content: "";
+}
+.sym-stpt-s:before {
+  content: "";
+}
+.sym-stpt:before {
+  content: "";
+}
+.sym-stq-s:before {
+  content: "";
+}
+.sym-stq:before {
+  content: "";
+}
+.sym-str-s:before {
+  content: "";
+}
+.sym-str:before {
+  content: "";
+}
+.sym-strat-s:before {
+  content: "";
+}
+.sym-strat:before {
+  content: "";
+}
+.sym-strax-s:before {
+  content: "";
+}
+.sym-strax:before {
+  content: "";
+}
+.sym-strk-s:before {
+  content: "";
+}
+.sym-strk:before {
+  content: "";
+}
+.sym-strong-s:before {
+  content: "";
+}
+.sym-strong:before {
+  content: "";
+}
+.sym-stx-s:before {
+  content: "";
+}
+.sym-stx:before {
+  content: "";
+}
+.sym-sub-s:before {
+  content: "";
+}
+.sym-sub:before {
+  content: "";
+}
+.sym-sui-s:before {
+  content: "";
+}
+.sym-sui:before {
+  content: "";
+}
+.sym-sun-s:before {
+  content: "";
+}
+.sym-sun:before {
+  content: "";
+}
+.sym-super-s:before {
+  content: "";
+}
+.sym-super:before {
+  content: "";
+}
+.sym-susd-s:before {
+  content: "";
+}
+.sym-susd:before {
+  content: "";
+}
+.sym-sushi-s:before {
+  content: "";
+}
+.sym-sushi:before {
+  content: "";
+}
+.sym-swftc-s:before {
+  content: "";
+}
+.sym-swftc:before {
+  content: "";
+}
+.sym-swm-s:before {
+  content: "";
+}
+.sym-swm:before {
+  content: "";
+}
+.sym-swrv-s:before {
+  content: "";
+}
+.sym-swrv:before {
+  content: "";
+}
+.sym-swt-s:before {
+  content: "";
+}
+.sym-swt:before {
+  content: "";
+}
+.sym-swth-s:before {
+  content: "";
+}
+.sym-swth:before {
+  content: "";
+}
+.sym-sxp-s:before {
+  content: "";
+}
+.sym-sxp:before {
+  content: "";
+}
+.sym-syn-s:before {
+  content: "";
+}
+.sym-syn:before {
+  content: "";
+}
+.sym-sys-s:before {
+  content: "";
+}
+.sym-sys:before {
+  content: "";
+}
+.sym-t-s:before {
+  content: "";
+}
+.sym-t:before {
+  content: "";
+}
+.sym-taas-s:before {
+  content: "";
+}
+.sym-taas:before {
+  content: "";
+}
+.sym-tau-s:before {
+  content: "";
+}
+.sym-tau:before {
+  content: "";
+}
+.sym-tbtc-s:before {
+  content: "";
+}
+.sym-tbtc:before {
+  content: "";
+}
+.sym-tct-s:before {
+  content: "";
+}
+.sym-tct:before {
+  content: "";
+}
+.sym-teer-s:before {
+  content: "";
+}
+.sym-teer:before {
+  content: "";
+}
+.sym-tel-s:before {
+  content: "";
+}
+.sym-temco-s:before {
+  content: "";
+}
+.sym-temco:before {
+  content: "";
+}
+.sym-tfuel-s:before {
+  content: "";
+}
+.sym-tfuel:before {
+  content: "";
+}
+.sym-thb-s:before {
+  content: "";
+}
+.sym-thb:before {
+  content: "";
+}
+.sym-thc-s:before {
+  content: "";
+}
+.sym-thc:before {
+  content: "";
+}
+.sym-theta-s:before {
+  content: "";
+}
+.sym-theta:before {
+  content: "";
+}
+.sym-thx-s:before {
+  content: "";
+}
+.sym-thx:before {
+  content: "";
+}
+.sym-time-s:before {
+  content: "";
+}
+.sym-time:before {
+  content: "";
+}
+.sym-tio-s:before {
+  content: "";
+}
+.sym-tio:before {
+  content: "";
+}
+.sym-tix-s:before {
+  content: "";
+}
+.sym-tix:before {
+  content: "";
+}
+.sym-tkn-s:before {
+  content: "";
+}
+.sym-tkn:before {
+  content: "";
+}
+.sym-tky-s:before {
+  content: "";
+}
+.sym-tky:before {
+  content: "";
+}
+.sym-tlm-s:before {
+  content: "";
+}
+.sym-tlm:before {
+  content: "";
+}
+.sym-tnb-s:before {
+  content: "";
+}
+.sym-tnb:before {
+  content: "";
+}
+.sym-tnc-s:before {
+  content: "豈";
+}
+.sym-tnc:before {
+  content: "更";
+}
+.sym-tnt-s:before {
+  content: "車";
+}
+.sym-tnt:before {
+  content: "賈";
+}
+.sym-toke-s:before {
+  content: "滑";
+}
+.sym-toke:before {
+  content: "串";
+}
+.sym-tomb-s:before {
+  content: "句";
+}
+.sym-tomb:before {
+  content: "龜";
+}
+.sym-tomo-s:before {
+  content: "龜";
+}
+.sym-tomo:before {
+  content: "契";
+}
+.sym-top-s:before {
+  content: "金";
+}
+.sym-top:before {
+  content: "喇";
+}
+.sym-torn-s:before {
+  content: "奈";
+}
+.sym-torn:before {
+  content: "懶";
+}
+.sym-tower-s:before {
+  content: "癩";
+}
+.sym-tower:before {
+  content: "羅";
+}
+.sym-tpay-s:before {
+  content: "蘿";
+}
+.sym-tpay:before {
+  content: "螺";
+}
+.sym-trac-s:before {
+  content: "裸";
+}
+.sym-trac:before {
+  content: "邏";
+}
+.sym-trb-s:before {
+  content: "樂";
+}
+.sym-trb:before {
+  content: "洛";
+}
+.sym-tribe-s:before {
+  content: "烙";
+}
+.sym-tribe:before {
+  content: "珞";
+}
+.sym-trig-s:before {
+  content: "落";
+}
+.sym-trig:before {
+  content: "酪";
+}
+.sym-trio-s:before {
+  content: "駱";
+}
+.sym-trio:before {
+  content: "亂";
+}
+.sym-troy-s:before {
+  content: "卵";
+}
+.sym-troy:before {
+  content: "欄";
+}
+.sym-trst-s:before {
+  content: "爛";
+}
+.sym-trst:before {
+  content: "蘭";
+}
+.sym-tru-s:before {
+  content: "鸞";
+}
+.sym-tru:before {
+  content: "嵐";
+}
+.sym-true-s:before {
+  content: "濫";
+}
+.sym-true:before {
+  content: "藍";
+}
+.sym-trx-s:before {
+  content: "襤";
+}
+.sym-trx:before {
+  content: "拉";
+}
+.sym-try-s:before {
+  content: "臘";
+}
+.sym-try:before {
+  content: "蠟";
+}
+.sym-tryb-s:before {
+  content: "廊";
+}
+.sym-tryb:before {
+  content: "朗";
+}
+.sym-tt-s:before {
+  content: "浪";
+}
+.sym-tt:before {
+  content: "狼";
+}
+.sym-ttc-s:before {
+  content: "郎";
+}
+.sym-ttc:before {
+  content: "來";
+}
+.sym-ttt-s:before {
+  content: "冷";
+}
+.sym-ttt:before {
+  content: "勞";
+}
+.sym-ttu-s:before {
+  content: "擄";
+}
+.sym-ttu:before {
+  content: "櫓";
+}
+.sym-tube-s:before {
+  content: "爐";
+}
+.sym-tube:before {
+  content: "盧";
+}
+.sym-tusd-s:before {
+  content: "老";
+}
+.sym-tusd:before {
+  content: "蘆";
+}
+.sym-tvk-s:before {
+  content: "虜";
+}
+.sym-tvk:before {
+  content: "路";
+}
+.sym-twt-s:before {
+  content: "露";
+}
+.sym-twt:before {
+  content: "魯";
+}
+.sym-uah-s:before {
+  content: "鷺";
+}
+.sym-uah:before {
+  content: "碌";
+}
+.sym-ubq-s:before {
+  content: "祿";
+}
+.sym-ubq:before {
+  content: "綠";
+}
+.sym-ubt-s:before {
+  content: "菉";
+}
+.sym-ubt:before {
+  content: "錄";
+}
+.sym-uft-s:before {
+  content: "鹿";
+}
+.sym-uft:before {
+  content: "論";
+}
+.sym-ugas-s:before {
+  content: "壟";
+}
+.sym-ugas:before {
+  content: "弄";
+}
+.sym-uip-s:before {
+  content: "籠";
+}
+.sym-uip:before {
+  content: "聾";
+}
+.sym-ukg-s:before {
+  content: "牢";
+}
+.sym-ukg:before {
+  content: "磊";
+}
+.sym-uma-s:before {
+  content: "賂";
+}
+.sym-uma:before {
+  content: "雷";
+}
+.sym-umami-s:before {
+  content: "壘";
+}
+.sym-umami:before {
+  content: "屢";
+}
+.sym-unfi-s:before {
+  content: "樓";
+}
+.sym-unfi:before {
+  content: "淚";
+}
+.sym-uni-s:before {
+  content: "漏";
+}
+.sym-uni:before {
+  content: "累";
+}
+.sym-unq-s:before {
+  content: "縷";
+}
+.sym-unq:before {
+  content: "陋";
+}
+.sym-up-s:before {
+  content: "勒";
+}
+.sym-up:before {
+  content: "肋";
+}
+.sym-upp-s:before {
+  content: "凜";
+}
+.sym-upp:before {
+  content: "凌";
+}
+.sym-usd-s:before {
+  content: "稜";
+}
+.sym-usd:before {
+  content: "綾";
+}
+.sym-usdc-s:before {
+  content: "菱";
+}
+.sym-usdc:before {
+  content: "陵";
+}
+.sym-usds-s:before {
+  content: "讀";
+}
+.sym-usds:before {
+  content: "拏";
+}
+.sym-usk-s:before {
+  content: "樂";
+}
+.sym-usk:before {
+  content: "諾";
+}
+.sym-ust-s:before {
+  content: "丹";
+}
+.sym-ust:before {
+  content: "寧";
+}
+.sym-utk-s:before {
+  content: "怒";
+}
+.sym-utk:before {
+  content: "率";
+}
+.sym-utnp-s:before {
+  content: "異";
+}
+.sym-utnp:before {
+  content: "北";
+}
+.sym-utt-s:before {
+  content: "磻";
+}
+.sym-utt:before {
+  content: "便";
+}
+.sym-uuu-s:before {
+  content: "復";
+}
+.sym-uuu:before {
+  content: "不";
+}
+.sym-ux-s:before {
+  content: "泌";
+}
+.sym-ux:before {
+  content: "數";
+}
+.sym-vader-s:before {
+  content: "索";
+}
+.sym-vader:before {
+  content: "參";
+}
+.sym-vai-s:before {
+  content: "塞";
+}
+.sym-vai:before {
+  content: "省";
+}
+.sym-vbk-s:before {
+  content: "葉";
+}
+.sym-vbk:before {
+  content: "說";
+}
+.sym-vdx-s:before {
+  content: "殺";
+}
+.sym-vdx:before {
+  content: "辰";
+}
+.sym-vee-s:before {
+  content: "沈";
+}
+.sym-vee:before {
+  content: "拾";
+}
+.sym-vemp-s:before {
+  content: "若";
+}
+.sym-vemp:before {
+  content: "掠";
+}
+.sym-ven-s:before {
+  content: "略";
+}
+.sym-ven:before {
+  content: "亮";
+}
+.sym-veo-s:before {
+  content: "兩";
+}
+.sym-veo:before {
+  content: "凉";
+}
+.sym-veri-s:before {
+  content: "梁";
+}
+.sym-veri:before {
+  content: "糧";
+}
+.sym-vex-s:before {
+  content: "良";
+}
+.sym-vex:before {
+  content: "諒";
+}
+.sym-vgx-s:before {
+  content: "量";
+}
+.sym-vgx:before {
+  content: "勵";
+}
+.sym-via-s:before {
+  content: "呂";
+}
+.sym-via:before {
+  content: "女";
+}
+.sym-vib-s:before {
+  content: "廬";
+}
+.sym-vib:before {
+  content: "旅";
+}
+.sym-vibe-s:before {
+  content: "濾";
+}
+.sym-vibe:before {
+  content: "礪";
+}
+.sym-vid-s:before {
+  content: "閭";
+}
+.sym-vid:before {
+  content: "驪";
+}
+.sym-vidt-s:before {
+  content: "麗";
+}
+.sym-vidt:before {
+  content: "黎";
+}
+.sym-vidy-s:before {
+  content: "力";
+}
+.sym-vidy:before {
+  content: "曆";
+}
+.sym-vitae-s:before {
+  content: "歷";
+}
+.sym-vitae:before {
+  content: "轢";
+}
+.sym-vite-s:before {
+  content: "年";
+}
+.sym-vite:before {
+  content: "憐";
+}
+.sym-vlx-s:before {
+  content: "戀";
+}
+.sym-vlx:before {
+  content: "撚";
+}
+.sym-vox-s:before {
+  content: "漣";
+}
+.sym-vox:before {
+  content: "煉";
+}
+.sym-voxel-s:before {
+  content: "璉";
+}
+.sym-voxel:before {
+  content: "秊";
+}
+.sym-vra-s:before {
+  content: "練";
+}
+.sym-vra:before {
+  content: "聯";
+}
+.sym-vrc-s:before {
+  content: "輦";
+}
+.sym-vrc:before {
+  content: "蓮";
+}
+.sym-vrm-s:before {
+  content: "連";
+}
+.sym-vrm:before {
+  content: "鍊";
+}
+.sym-vsys-s:before {
+  content: "列";
+}
+.sym-vsys:before {
+  content: "劣";
+}
+.sym-vtc-s:before {
+  content: "咽";
+}
+.sym-vtc:before {
+  content: "烈";
+}
+.sym-vtho-s:before {
+  content: "裂";
+}
+.sym-vtho:before {
+  content: "說";
+}
+.sym-wabi-s:before {
+  content: "廉";
+}
+.sym-wabi:before {
+  content: "念";
+}
+.sym-wan-s:before {
+  content: "捻";
+}
+.sym-wan:before {
+  content: "殮";
+}
+.sym-waves-s:before {
+  content: "簾";
+}
+.sym-waves:before {
+  content: "獵";
+}
+.sym-wax-s:before {
+  content: "令";
+}
+.sym-wax:before {
+  content: "囹";
+}
+.sym-wbtc-s:before {
+  content: "寧";
+}
+.sym-wbtc:before {
+  content: "嶺";
+}
+.sym-wet-s:before {
+  content: "怜";
+}
+.sym-wet:before {
+  content: "玲";
+}
+.sym-weth-s:before {
+  content: "瑩";
+}
+.sym-weth:before {
+  content: "羚";
+}
+.sym-wib-s:before {
+  content: "聆";
+}
+.sym-wib:before {
+  content: "鈴";
+}
+.sym-wicc-s:before {
+  content: "零";
+}
+.sym-wicc:before {
+  content: "靈";
+}
+.sym-win-s:before {
+  content: "領";
+}
+.sym-win:before {
+  content: "例";
+}
+.sym-wing-s:before {
+  content: "禮";
+}
+.sym-wing:before {
+  content: "醴";
+}
+.sym-wings-s:before {
+  content: "隸";
+}
+.sym-wings:before {
+  content: "惡";
+}
+.sym-wnxm-s:before {
+  content: "了";
+}
+.sym-wnxm:before {
+  content: "僚";
+}
+.sym-woo-s:before {
+  content: "寮";
+}
+.sym-woo:before {
+  content: "尿";
+}
+.sym-wpr-s:before {
+  content: "料";
+}
+.sym-wpr:before {
+  content: "樂";
+}
+.sym-wrx-s:before {
+  content: "燎";
+}
+.sym-wrx:before {
+  content: "療";
+}
+.sym-wtc-s:before {
+  content: "蓼";
+}
+.sym-wtc:before {
+  content: "遼";
+}
+.sym-wtt-s:before {
+  content: "龍";
+}
+.sym-wtt:before {
+  content: "暈";
+}
+.sym-wwb-s:before {
+  content: "阮";
+}
+.sym-wwb:before {
+  content: "劉";
+}
+.sym-wxt-s:before {
+  content: "杻";
+}
+.sym-wxt:before {
+  content: "柳";
+}
+.sym-xas-s:before {
+  content: "流";
+}
+.sym-xas:before {
+  content: "溜";
+}
+.sym-xaur-s:before {
+  content: "琉";
+}
+.sym-xaur:before {
+  content: "留";
+}
+.sym-xaut-s:before {
+  content: "硫";
+}
+.sym-xaut:before {
+  content: "紐";
+}
+.sym-xava-s:before {
+  content: "類";
+}
+.sym-xava:before {
+  content: "六";
+}
+.sym-xbc-s:before {
+  content: "戮";
+}
+.sym-xbc:before {
+  content: "陸";
+}
+.sym-xcn-s:before {
+  content: "倫";
+}
+.sym-xcn:before {
+  content: "崙";
+}
+.sym-xcon-s:before {
+  content: "淪";
+}
+.sym-xcon:before {
+  content: "輪";
+}
+.sym-xcp-s:before {
+  content: "律";
+}
+.sym-xcp:before {
+  content: "慄";
+}
+.sym-xdefi-s:before {
+  content: "栗";
+}
+.sym-xdefi:before {
+  content: "率";
+}
+.sym-xdn-s:before {
+  content: "隆";
+}
+.sym-xdn:before {
+  content: "利";
+}
+.sym-xel-s:before {
+  content: "吏";
+}
+.sym-xel:before {
+  content: "履";
+}
+.sym-xem-s:before {
+  content: "易";
+}
+.sym-xem:before {
+  content: "李";
+}
+.sym-xes-s:before {
+  content: "梨";
+}
+.sym-xes:before {
+  content: "泥";
+}
+.sym-xhv-s:before {
+  content: "理";
+}
+.sym-xhv:before {
+  content: "痢";
+}
+.sym-xin-s:before {
+  content: "罹";
+}
+.sym-xin:before {
+  content: "裏";
+}
+.sym-xlm-s:before {
+  content: "裡";
+}
+.sym-xlm:before {
+  content: "里";
+}
+.sym-xmc-s:before {
+  content: "離";
+}
+.sym-xmc:before {
+  content: "匿";
+}
+.sym-xmr-s:before {
+  content: "溺";
+}
+.sym-xmr:before {
+  content: "吝";
+}
+.sym-xmx-s:before {
+  content: "燐";
+}
+.sym-xmx:before {
+  content: "璘";
+}
+.sym-xmy-s:before {
+  content: "藺";
+}
+.sym-xmy:before {
+  content: "隣";
+}
+.sym-xnk-s:before {
+  content: "鱗";
+}
+.sym-xnk:before {
+  content: "麟";
+}
+.sym-xns-s:before {
+  content: "林";
+}
+.sym-xns:before {
+  content: "淋";
+}
+.sym-xor-s:before {
+  content: "臨";
+}
+.sym-xor:before {
+  content: "立";
+}
+.sym-xos-s:before {
+  content: "笠";
+}
+.sym-xos:before {
+  content: "粒";
+}
+.sym-xpm-s:before {
+  content: "狀";
+}
+.sym-xpm:before {
+  content: "炙";
+}
+.sym-xpr-s:before {
+  content: "識";
+}
+.sym-xpr:before {
+  content: "什";
+}
+.sym-xrc-s:before {
+  content: "茶";
+}
+.sym-xrc:before {
+  content: "刺";
+}
+.sym-xrp-s:before {
+  content: "切";
+}
+.sym-xrp:before {
+  content: "度";
+}
+.sym-xrpx-s:before {
+  content: "拓";
+}
+.sym-xrpx:before {
+  content: "糖";
+}
+.sym-xrt-s:before {
+  content: "宅";
+}
+.sym-xrt:before {
+  content: "洞";
+}
+.sym-xst-s:before {
+  content: "暴";
+}
+.sym-xst:before {
+  content: "輻";
+}
+.sym-xtp-s:before {
+  content: "行";
+}
+.sym-xtp:before {
+  content: "降";
+}
+.sym-xtz-s:before {
+  content: "見";
+}
+.sym-xtz:before {
+  content: "廓";
+}
+.sym-xtzdown-s:before {
+  content: "兀";
+}
+.sym-xtzdown:before {
+  content: "嗀";
+}
+.sym-xvc-s:before {
+  content: "﨎";
+}
+.sym-xvc:before {
+  content: "﨏";
+}
+.sym-xvg-s:before {
+  content: "塚";
+}
+.sym-xvg:before {
+  content: "﨑";
+}
+.sym-xvs-s:before {
+  content: "晴";
+}
+.sym-xvs:before {
+  content: "﨓";
+}
+.sym-xwc-s:before {
+  content: "﨔";
+}
+.sym-xwc:before {
+  content: "凞";
+}
+.sym-xyo-s:before {
+  content: "猪";
+}
+.sym-xyo:before {
+  content: "益";
+}
+.sym-xzc-s:before {
+  content: "礼";
+}
+.sym-xzc:before {
+  content: "神";
+}
+.sym-yam-s:before {
+  content: "祥";
+}
+.sym-yam:before {
+  content: "福";
+}
+.sym-yee-s:before {
+  content: "靖";
+}
+.sym-yee:before {
+  content: "精";
+}
+.sym-yeed-s:before {
+  content: "羽";
+}
+.sym-yeed:before {
+  content: "﨟";
+}
+.sym-yfi-s:before {
+  content: "蘒";
+}
+.sym-yfi:before {
+  content: "﨡";
+}
+.sym-yfii-s:before {
+  content: "諸";
+}
+.sym-yfii:before {
+  content: "﨣";
+}
+.sym-ygg-s:before {
+  content: "﨤";
+}
+.sym-ygg:before {
+  content: "逸";
+}
+.sym-yoyow-s:before {
+  content: "都";
+}
+.sym-yoyow:before {
+  content: "﨧";
+}
+.sym-zar-s:before {
+  content: "﨨";
+}
+.sym-zar:before {
+  content: "﨩";
+}
+.sym-zcl-s:before {
+  content: "飯";
+}
+.sym-zcl:before {
+  content: "飼";
+}
+.sym-zcn-s:before {
+  content: "館";
+}
+.sym-zcn:before {
+  content: "鶴";
+}
+.sym-zco-s:before {
+  content: "郞";
+}
+.sym-zco:before {
+  content: "隷";
+}
+.sym-zec-s:before {
+  content: "侮";
+}
+.sym-zec:before {
+  content: "僧";
+}
+.sym-zen-s:before {
+  content: "免";
+}
+.sym-zen:before {
+  content: "勉";
+}
+.sym-zil-s:before {
+  content: "勤";
+}
+.sym-zil:before {
+  content: "卑";
+}
+.sym-zks-s:before {
+  content: "喝";
+}
+.sym-zks:before {
+  content: "嘆";
+}
+.sym-zla-s:before {
+  content: "器";
+}
+.sym-zla:before {
+  content: "塀";
+}
+.sym-zlk:before {
+  content: "墨";
+}
+.sym-zondo-s:before {
+  content: "層";
+}
+.sym-zondo:before {
+  content: "屮";
+}
+.sym-zpr-s:before {
+  content: "悔";
+}
+.sym-zpr:before {
+  content: "慨";
+}
+.sym-zpt-s:before {
+  content: "憎";
+}
+.sym-zpt:before {
+  content: "懲";
+}
+.sym-zrc-s:before {
+  content: "敏";
+}
+.sym-zrc:before {
+  content: "既";
+}
+.sym-zrx-s:before {
+  content: "暑";
+}
+.sym-zrx:before {
+  content: "梅";
+}
+.sym-zsc-s:before {
+  content: "海";
+}
+.sym-zsc:before {
+  content: "渚";
+}
+.sym-ztg-s:before {
+  content: "漢";
+}
+.sym-ztg:before {
+  content: "煮";
+}
+.ustc-s:before {
+  content: "爫";
+}
+.ustc:before {
+  content: "琢";
+}
+.cur-anct:before {
+  content: "";
+}
+.cur-anct-s:before {
+  content: "";
+}
+.cur-aud:before {
+  content: "";
+}
+.cur-aud-s:before {
+  content: "";
+}
+.cur-bnb:before {
+  content: "";
+}
+.cur-bnb-s:before {
+  content: "";
+}
+.cur-btc:before,
+.sym-xbt:before {
+  content: "";
+}
+.cur-btc-s:before,
+.sym-xbt-s:before {
+  content: "";
+}
+.cur-busd:before {
+  content: "";
+}
+.cur-busd-s:before {
+  content: "";
+}
+.cur-bz:before,
+.exc-bitz:before {
+  content: "";
+}
+.cur-bz-s:before,
+.exc-bitz-s:before {
+  content: "";
+}
+.cur-cad:before {
+  content: "";
+}
+.cur-cad-s:before {
+  content: "";
+}
+.cur-chf:before {
+  content: "";
+}
+.cur-chf-s:before {
+  content: "";
+}
+.cur-cny:before {
+  content: "";
+}
+.cur-cny-s:before {
+  content: "";
+}
+.sym-cs:before {
+  content: "";
+}
+.sym-cs-s:before {
+  content: "";
+}
+.sym-crm:before {
+  content: "";
+}
+.sym-crm-s:before {
+  content: "";
+}
+.cur-dai:before {
+  content: "";
+}
+.cur-dai-s:before {
+  content: "";
+}
+.sym-xdg:before {
+  content: "";
+}
+.sym-xdg-s:before {
+  content: "";
+}
+.cur-eos:before {
+  content: "";
+}
+.cur-eos-s:before {
+  content: "";
+}
+.cur-eth:before,
+.sym-eth2:before,
+.sym-eth2\.s:before,
+.sym-eth2s:before {
+  content: "";
+}
+.cur-eth-s:before,
+.sym-eth2-s:before,
+.sym-eth2\.s-s:before,
+.sym-eth2s-s:before {
+  content: "";
+}
+.cur-eur:before {
+  content: "";
+}
+.cur-eur-s:before {
+  content: "";
+}
+.cur-eurs:before {
+  content: "";
+}
+.cur-eurs-s:before {
+  content: "";
+}
+.cur-usdt:before,
+.sym-usdt:before {
+  content: "";
+}
+.cur-usdt-s:before,
+.sym-usdt-s:before {
+  content: "";
+}
+.exc-kraken-futures:before,
+.exc-kraken:before {
+  content: "";
+}
+.exc-kraken-futures-s:before,
+.exc-kraken-s:before {
+  content: "";
+}
+.cur-gbp:before {
+  content: "";
+}
+.cur-gbp-s:before {
+  content: "";
+}
+.cur-gusd:before,
+.exc-gemini:before {
+  content: "";
+}
+.cur-gusd-s:before,
+.exc-gemini-s:before {
+  content: "";
+}
+.cur-hkd:before {
+  content: "";
+}
+.cur-hkd-s:before {
+  content: "";
+}
+.cur-ht:before,
+.exc-huobi:before,
+.sym-husd:before {
+  content: "";
+}
+.cur-ht-s:before,
+.exc-huobi-s:before,
+.sym-husd-s:before {
+  content: "";
+}
+.cur-idr:before {
+  content: "";
+}
+.cur-idr-s:before {
+  content: "";
+}
+.sym-iota:before {
+  content: "";
+}
+.sym-iota-s:before {
+  content: "";
+}
+.cur-inr:before {
+  content: "";
+}
+.cur-inr-s:before {
+  content: "";
+}
+.cur-jpy:before {
+  content: "";
+}
+.cur-jpy-s:before {
+  content: "";
+}
+.cur-krw:before {
+  content: "";
+}
+.cur-krw-s:before {
+  content: "";
+}
+.sym-medx:before {
+  content: "";
+}
+.sym-medx-s:before {
+  content: "";
+}
+.cur-mxn:before {
+  content: "";
+}
+.cur-mxn-s:before {
+  content: "";
+}
+.cur-myr:before {
+  content: "";
+}
+.cur-myr-s:before {
+  content: "";
+}
+.cur-ngn:before {
+  content: "";
+}
+.cur-ngn-s:before {
+  content: "";
+}
+.cur-pax:before {
+  content: "";
+}
+.cur-pax-s:before {
+  content: "";
+}
+.cur-php:before {
+  content: "";
+}
+.cur-php-s:before {
+  content: "";
+}
+.cur-pln:before {
+  content: "";
+}
+.cur-pln-s:before {
+  content: "";
+}
+.cur-qash:before {
+  content: "";
+}
+.cur-qash-s:before {
+  content: "";
+}
+.cur-rub:before,
+.cur-rur:before {
+  content: "";
+}
+.cur-rub-s:before,
+.cur-rur-s:before {
+  content: "";
+}
+.sym-steem:before {
+  content: "";
+}
+.sym-steem-s:before {
+  content: "";
+}
+.sym-xsc:before {
+  content: "";
+}
+.sym-xsc-s:before {
+  content: "";
+}
+.cur-sgd:before {
+  content: "";
+}
+.cur-sgd-s:before {
+  content: "";
+}
+.sym-storj:before {
+  content: "";
+}
+.sym-storj-s:before {
+  content: "";
+}
+.sym-tel:before {
+  content: "";
+}
+.cur-trx:before {
+  content: "拉";
+}
+.cur-trx-s:before {
+  content: "襤";
+}
+.cur-tusd:before {
+  content: "蘆";
+}
+.cur-tusd-s:before {
+  content: "老";
+}
+.cur-usd:before {
+  content: "綾";
+}
+.cur-usd-s:before {
+  content: "稜";
+}
+.cur-usdc:before {
+  content: "陵";
+}
+.cur-usdc-s:before {
+  content: "菱";
+}
+.sym-vet:before {
+  content: "亮";
+}
+.sym-vet-s:before {
+  content: "略";
+}
+.sym-waxp:before {
+  content: "囹";
+}
+.sym-waxp-s:before {
+  content: "令";
+}
+.cur-xlm:before {
+  content: "里";
+}
+.cur-xlm-s:before {
+  content: "裡";
+}
+.cur-xmr:before {
+  content: "吝";
+}
+.cur-xmr-s:before {
+  content: "溺";
+}
+.cur-xrp:before {
+  content: "度";
+}
+.cur-xrp-s:before {
+  content: "切";
+}
+.cur-zar:before {
+  content: "﨩";
+}
+.cur-zar-s:before {
+  content: "﨨";
+}
+.exc-binance-us:before {
+  content: "";
+}
+.exc-binance-us-s:before {
+  content: "";
+}
+.exc-mexbt:before {
+  content: "";
+}
+.exc-mexbt-s:before {
+  content: "";
+}
+.exc-coinbase-pro:before,
+.exc-gdax:before {
+  content: "";
+}
+.exc-coinbase-pro-s:before,
+.exc-gdax-s:before {
+  content: "";
+}
+.exc-quadriga:before {
+  content: "";
+}
+.exc-quadriga-s:before {
+  content: "";
+}
+.cur-crc:before {
+  content: "";
+}
+.cur-crc-s:before {
+  content: "";
+}
+.cur-lak:before {
+  content: "";
+}
+.cur-lak-s:before {
+  content: "";
+}
+.cur-sek:before {
+  content: "";
+}
+.cur-sek-s:before {
+  content: "";
+}
+.cur-thb:before {
+  content: "";
+}
+.cur-thb-s:before {
+  content: "";
+}
+.cur-try:before {
+  content: "蠟";
+}
+.cur-try-s:before {
+  content: "臘";
+}
+.cur-uah:before {
+  content: "碌";
+}
+.cur-uah-s:before {
+  content: "鷺";
+}
+.exc-ftx:before {
+  content: "";
+}
+.exc-ftx-s:before {
+  content: "";
+}
+.exc-ftx-us:before {
+  content: "";
+}
+.exc-ftx-us-s:before {
+  content: "";
+}
+.sym-cgld:before {
+  content: "";
+}
+.sym-cgld-s:before {
+  content: "";
+}
+.exc-uniswap-v2:before {
+  content: "累";
+}
+.exc-uniswap-v2-s:before {
+  content: "漏";
+}
+.sym-kshib:before {
+  content: "";
+}
+.sym-kshib-s:before {
+  content: "";
+}
+.sym-easy-s:before {
+  content: "";
+}
+.sym-srare:before {
+  content: "";
+}
+.sym-srare-s:before {
+  content: "";
+}
+.sym-ape\.2:before {
+  content: "";
+}
+.sym-ape\.2-s:before {
+  content: "";
+}
+[data-icon]:before {
+  content: attr(data-icon);
+}
+[class*=" icon-"]:before,
+[class^="icon-"]:before,
+[data-icon]:before {
+  font-family: kraken !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-feature-settings: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chat:before {
+  content: "a";
+}
+.icon-down-arrow:before {
+  content: "b";
+}
+.icon-dropdown-arrow:before {
+  content: "c";
+}
+.icon-kraken-horizontal:before {
+  content: "d";
+}
+.icon-kraken-square:before {
+  content: "e";
+}
+.icon-long-arrow:before {
+  content: "f";
+}
+.icon-plus-sign:before {
+  content: "g";
+}
+.icon-search:before {
+  content: "h";
+}
+.icon-small-down-arrow:before {
+  content: "i";
+}
+.icon-up-arrow:before {
+  content: "j";
+}
+.icon-kraken-icon:before {
+  content: "k";
+}
+.icon-facebook:before {
+  content: "l";
+}
+.icon-linkedin:before {
+  content: "m";
+}
+.icon-twitter:before {
+  content: "n";
+}
+.sym-btc {
+  transform: rotate(15deg) translateX(-0.5px);
+}
+.bc {
+  font-family: beacons;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+:export {
+  inch: #122a47;
+}
+:export {
+  aave: #b6509e;
+}
+:export {
+  ada: #3cc8c8;
+}
+:export {
+  adc: #3cb0e5;
+}
+:export {
+  aeon: #164450;
+}
+:export {
+  akro: #ab47bc;
+}
+:export {
+  akt: #d94934;
+}
+:export {
+  algo: #a8a836;
+}
+:export {
+  amp: #048dd2;
+}
+:export {
+  ampl: #000;
+}
+:export {
+  anc: #000;
+}
+:export {
+  ankr: #0851ff;
+}
+:export {
+  ant: #00c2ff;
+}
+:export {
+  ar: #29292d;
+}
+:export {
+  arch: #002652;
+}
+:export {
+  ardr: #1162a1;
+}
+:export {
+  ark: #f70000;
+}
+:export {
+  ast: #18f18f;
+}
+:export {
+  atlas: #fa3a00;
+}
+:export {
+  atom: #5064fb;
+}
+:export {
+  aur: #136c5e;
+}
+:export {
+  avax: #e74140;
+}
+:export {
+  axs: #0059dd;
+}
+:export {
+  badger: #f2a52b;
+}
+:export {
+  band: #516ffa;
+}
+:export {
+  banx: #225ba6;
+}
+:export {
+  bal: #000;
+}
+:export {
+  bat: #9e1f63;
+}
+:export {
+  bay: #584ba1;
+}
+:export {
+  bc: #202121;
+}
+:export {
+  bcn: #964f51;
+}
+:export {
+  bcy: #123a5a;
+}
+:export {
+  bela: #009ef9;
+}
+:export {
+  bft: #4fc3f7;
+}
+:export {
+  blz: #6be6be;
+}
+:export {
+  brk: #194fa0;
+}
+:export {
+  brx: #a8c300;
+}
+:export {
+  bsd: #1186e7;
+}
+:export {
+  bta: #210094;
+}
+:export {
+  btc: #f7931a;
+}
+:export {
+  bch: #4cca47;
+}
+:export {
+  bnc: #000;
+}
+:export {
+  bnt: #0b0f2b;
+}
+:export {
+  btg: #eba809;
+}
+:export {
+  btcd: #2a72dc;
+}
+:export {
+  btcp: #272d63;
+}
+:export {
+  btm: #9fa8b4;
+}
+:export {
+  bts: #03a9e0;
+}
+:export {
+  btt: #000;
+}
+:export {
+  brick: #aa472d;
+}
+:export {
+  burst: #2d2d2d;
+}
+:export {
+  cad: #f60;
+}
+:export {
+  cel: #ff3cac;
+}
+:export {
+  celo: #35d07f;
+}
+:export {
+  cfg: #000;
+}
+:export {
+  chf: #f3b728;
+}
+:export {
+  chz: #ac0728;
+}
+:export {
+  clam: #d6ab31;
+}
+:export {
+  cloak: #df3f1e;
+}
+:export {
+  comp: #00d395;
+}
+:export {
+  cqt: #ff4c8a;
+}
+:export {
+  crv: #7f86a1;
+}
+:export {
+  ctsi: #000;
+}
+:export {
+  cvc: #3ab03e;
+}
+:export {
+  dao: #ff3b3b;
+}
+:export {
+  dai: #f4b731;
+}
+:export {
+  dash: #1c75bc;
+}
+:export {
+  dcr: #3b7cfb;
+}
+:export {
+  dct: #008770;
+}
+:export {
+  dgb: #06c;
+}
+:export {
+  dgd: #d8a24a;
+}
+:export {
+  dgx: #d8a24a;
+}
+:export {
+  dmd: #5497b2;
+}
+:export {
+  dnt: #2c398f;
+}
+:export {
+  dot: #e6007a;
+}
+:export {
+  doge: #ba9f33;
+}
+:export {
+  egld: #000;
+}
+:export {
+  enj: #7866d5;
+}
+:export {
+  ens: #5284ff;
+}
+:export {
+  emc: #674c8c;
+}
+:export {
+  emc2: #0cf;
+}
+:export {
+  eos: #19191a;
+}
+:export {
+  erc: #101e84;
+}
+:export {
+  etc: #669073;
+}
+:export {
+  eth: #2e3192;
+}
+:export {
+  eth2: #2e3192;
+}
+:export {
+  eur: #00329c;
+}
+:export {
+  ewt: #a566ff;
+}
+:export {
+  exp: #ffaa5c;
+}
+:export {
+  fc2: #040405;
+}
+:export {
+  fct: #2175bb;
+}
+:export {
+  fil: #0090ff;
+}
+:export {
+  fida: #7c7cff;
+}
+:export {
+  fldc: #c40e09;
+}
+:export {
+  flo: #1358c8;
+}
+:export {
+  flow: #01ef83;
+}
+:export {
+  frk: #0633cd;
+}
+:export {
+  ftc: #679ef1;
+}
+:export {
+  fun: #ef3a5c;
+}
+:export {
+  game: #ed1b24;
+}
+:export {
+  gbp: #1176a8;
+}
+:export {
+  gbyte: #2c3e50;
+}
+:export {
+  gdc: #e9a226;
+}
+:export {
+  gemz: #e86060;
+}
+:export {
+  gens: #b74119;
+}
+:export {
+  ghst: #f500f0;
+}
+:export {
+  gld: #e8be24;
+}
+:export {
+  gno: #00a6c4;
+}
+:export {
+  gnt: #00d6e3;
+}
+:export {
+  golos: #2670b7;
+}
+:export {
+  grc: #88a13c;
+}
+:export {
+  grs: #648fa0;
+}
+:export {
+  grt: #230652;
+}
+:export {
+  heat: #ff5606;
+}
+:export {
+  hns: #000;
+}
+:export {
+  hbar: #222;
+}
+:export {
+  huc: #ffc018;
+}
+:export {
+  icn: #4c6f8c;
+}
+:export {
+  icx: #22c8cc;
+}
+:export {
+  icp: #f5cd66;
+}
+:export {
+  ifc: #ed272d;
+}
+:export {
+  incnt: #f2932f;
+}
+:export {
+  ioc: #2fa3de;
+}
+:export {
+  jbs: #1a8bcd;
+}
+:export {
+  kar: #ff4c3b;
+}
+:export {
+  kava: #ff564f;
+}
+:export {
+  keep: #293330;
+}
+:export {
+  kmd: #326464;
+}
+:export {
+  kobo: #80c342;
+}
+:export {
+  kore: #df4124;
+}
+:export {
+  ksm: #000;
+}
+:export {
+  knc: #31cb9e;
+}
+:export {
+  kin: #6f41e8;
+}
+:export {
+  lbc: #015c47;
+}
+:export {
+  ldoge: #fc0;
+}
+:export {
+  lend: #0fa9c9;
+}
+:export {
+  link: #2a5ada;
+}
+:export {
+  lsk: #0d4ea0;
+}
+:export {
+  ltc: #345c9d;
+}
+:export {
+  lpt: #00eb88;
+}
+:export {
+  lrc: #1c42ff;
+}
+:export {
+  luna: #ffda51;
+}
+:export {
+  maid: #5492d6;
+}
+:export {
+  marks: #504c4c;
+}
+:export {
+  mana: #ff2d55;
+}
+:export {
+  matic: #8247e5;
+}
+:export {
+  mln: #333;
+}
+:export {
+  mco: #0d3459;
+}
+:export {
+  mina: #ff603b;
+}
+:export {
+  mint: #006835;
+}
+:export {
+  mkr: #1abc9c;
+}
+:export {
+  mngo: #eeb91b;
+}
+:export {
+  mona: #a99364;
+}
+:export {
+  moon: #efd88b;
+}
+:export {
+  movr: #53ccc9;
+}
+:export {
+  mrc: #4279bd;
+}
+:export {
+  msc: #1d4983;
+}
+:export {
+  mtl: #242424;
+}
+:export {
+  mtr: #b92429;
+}
+:export {
+  mue: #f5a10e;
+}
+:export {
+  mv: #5448c9;
+}
+:export {
+  nano: #4a90e2;
+}
+:export {
+  nav: #7d59b5;
+}
+:export {
+  myst: #f5a10e;
+}
+:export {
+  nbt: #ffc93d;
+}
+:export {
+  near: #e6dff1;
+}
+:export {
+  neo: #58bf00;
+}
+:export {
+  neos: #1d1d1b;
+}
+:export {
+  neu: #2983c0;
+}
+:export {
+  nlg: #003e7e;
+}
+:export {
+  nmc: #6787b7;
+}
+:export {
+  nmr: #8de8de;
+}
+:export {
+  note: #42daff;
+}
+:export {
+  nu: #1e65f3;
+}
+:export {
+  nvc: #ecab41;
+}
+:export {
+  nxt: #008fbb;
+}
+:export {
+  ocean: #141414;
+}
+:export {
+  ogn: #1982fe;
+}
+:export {
+  ok: #0165a4;
+}
+:export {
+  omg: #1a53f0;
+}
+:export {
+  omni: #18347e;
+}
+:export {
+  opal: #7193aa;
+}
+:export {
+  oxt: #5f45ba;
+}
+:export {
+  orca: #ffd15c;
+}
+:export {
+  part: #05d5a3;
+}
+:export {
+  pasc: #f7931e;
+}
+:export {
+  paxg: #ffce56;
+}
+:export {
+  perp: #05bce4;
+}
+:export {
+  pha: #9dc431;
+}
+:export {
+  piggy: #f27a7a;
+}
+:export {
+  pink: #ed31ca;
+}
+:export {
+  pivx: #3b2f4d;
+}
+:export {
+  pot: #105b2f;
+}
+:export {
+  polis: #322fb3;
+}
+:export {
+  ppc: #3fa30c;
+}
+:export {
+  ppt: #5a9ef6;
+}
+:export {
+  qrk: #22aabf;
+}
+:export {
+  qtum: #359bce;
+}
+:export {
+  rads: #924cea;
+}
+:export {
+  rari: #06f;
+}
+:export {
+  ray: #406afa;
+}
+:export {
+  rbies: #c62436;
+}
+:export {
+  rbt: #0d4982;
+}
+:export {
+  rby: #d31f26;
+}
+:export {
+  rdd: #ed1c24;
+}
+:export {
+  rep: #40a2cb;
+}
+:export {
+  ren: #3f3f48;
+}
+:export {
+  rev: #5e2cf2;
+}
+:export {
+  ric: #60e4dd;
+}
+:export {
+  rhoc: #c26c26;
+}
+:export {
+  rise: #43cea2;
+}
+:export {
+  river: #f2a007;
+}
+:export {
+  rvn: #f15b22;
+}
+:export {
+  salt: #373c43;
+}
+:export {
+  sar: #1b72b8;
+}
+:export {
+  sand: #0084ff;
+}
+:export {
+  saber: #6966fb;
+}
+:export {
+  sc: #1ed660;
+}
+:export {
+  scot: #3498db;
+}
+:export {
+  sdc: #981d2d;
+}
+:export {
+  sdn: #5928b1;
+}
+:export {
+  shib: #f06500;
+}
+:export {
+  sia: #00cba0;
+}
+:export {
+  sjcx: #036;
+}
+:export {
+  slg: #5a6875;
+}
+:export {
+  sls: #1eb549;
+}
+:export {
+  snrg: #160363;
+}
+:export {
+  snx: #4525d0;
+}
+:export {
+  sol: #d83aeb;
+}
+:export {
+  srm: #09b9d3;
+}
+:export {
+  start: #01aef0;
+}
+:export {
+  steem: #1a5099;
+}
+:export {
+  strat: #2398dd;
+}
+:export {
+  step: #00f8b7;
+}
+:export {
+  storj: #133e9c;
+}
+:export {
+  sushi: #f77d05;
+}
+:export {
+  swift: #428bca;
+}
+:export {
+  sxp: #ff4920;
+}
+:export {
+  sync: #008dd2;
+}
+:export {
+  sys: #0098da;
+}
+:export {
+  tbtc: #000;
+}
+:export {
+  theta: #29b3eb;
+}
+:export {
+  trig: #1fbff4;
+}
+:export {
+  trx: #c62734;
+}
+:export {
+  tx: #1f8bcc;
+}
+:export {
+  ubq: #00ec8d;
+}
+:export {
+  uni: #ea347b;
+}
+:export {
+  unity: #ed8527;
+}
+:export {
+  usd: #009a56;
+}
+:export {
+  usdc: #2775ca;
+}
+:export {
+  usdt: #2ca07a;
+}
+:export {
+  ven: #15bdff;
+}
+:export {
+  vet: #1caeff;
+}
+:export {
+  via: #565656;
+}
+:export {
+  vior: #1f52a4;
+}
+:export {
+  vnl: #404249;
+}
+:export {
+  vpn: #589700;
+}
+:export {
+  vrc: #418bca;
+}
+:export {
+  vtc: #1b5c2e;
+}
+:export {
+  waves: #24aad6;
+}
+:export {
+  wbtc: #f09242;
+}
+:export {
+  woo: #8cfaaa;
+}
+:export {
+  xai: #2ef99f;
+}
+:export {
+  xbc: #f7931a;
+}
+:export {
+  xbs: #d3261d;
+}
+:export {
+  xcp: #ec1550;
+}
+:export {
+  xem: #41bf76;
+}
+:export {
+  xlm: #3e1bdb;
+}
+:export {
+  xmr: #f60;
+}
+:export {
+  xmy: #bc3182;
+}
+:export {
+  xpm: #e5b625;
+}
+:export {
+  xrp: #23292f;
+}
+:export {
+  xrpx: #346aa9;
+}
+:export {
+  xtz: #2c7df7;
+}
+:export {
+  xvc: #b50126;
+}
+:export {
+  xvg: #42afb2;
+}
+:export {
+  xzc: #23b852;
+}
+:export {
+  jpy: #ff5000;
+}
+:export {
+  ybc: #d6c154;
+}
+:export {
+  yfi: #0065d0;
+}
+:export {
+  zec: #e5a93d;
+}
+:export {
+  zeit: #acacac;
+}
+:export {
+  zrx: #302c2c;
+}
+:export {
+  zil: #29ccc4;
+}
+:export {
+  yam: #d1004d;
+}
+:export {
+  b400: #0074a2;
+}
+:export {
+  bnb: #f3ba2f;
+}
+:export {
+  busd: #f0b90b;
+}
+:export {
+  steth: #48a0f8;
+}
+:export {
+  leo: #1e2c3e;
+}
+:export {
+  ftt: #02a6c2;
+}
+:export {
+  cro: #142b70;
+}
+:export {
+  ape: #1b44c0;
+}
+:export {
+  toncoin: #08c;
+}
+:export {
+  xcn: #00bfaa;
+}
+:export {
+  frax: #000;
+}
+:export {
+  qnt: #000;
+}
+:export {
+  tusd: #0c2661;
+}
+:export {
+  bit: #bffd50;
+}
+:export {
+  ftm: #50ace0;
+}
+:export {
+  ldo: #469bf0;
+}
+:export {
+  rune: #00e8ef;
+}
+:export {
+  stx: #5546ff;
+}
+:export {
+  gmt: #e9d088;
+}
+:export {
+  ust: #2468ff;
+}
+:export {
+  cvx: #000;
+}
+:export {
+  gala: #000;
+}
+:export {
+  juno: #e76b6a;
+}
+:export {
+  glm: #d70068;
+}
+:export {
+  t: #6827e9;
+}
+:export {
+  rsr: #111;
+}
+:export {
+  syn: #3400c5;
+}
+:export {
+  vgx: #38309b;
+}
+:export {
+  waxp: #f6d059;
+}
+:export {
+  audio: #be00d8;
+}
+:export {
+  mxc: #08005a;
+}
+:export {
+  imx: #152127;
+}
+:export {
+  glmr: #3b1625;
+}
+:export {
+  uma: #ec5952;
+}
+:export {
+  pla: #5dcac6;
+}
+:export {
+  snx: #13064c;
+}
+:export {
+  enj: #6f57db;
+}
+:export {
+  mv: #612d9a;
+}
+:export {
+  astr: #449bef;
+}
+:export {
+  msol: #d0ece2;
+}
+:export {
+  rndr: #be2d22;
+}
+:export {
+  aca: #fc342d;
+}
+:export {
+  inj: #58c0ef;
+}
+:export {
+  coti: #3f71bb;
+}
+:export {
+  spell: #221c45;
+}
+:export {
+  req: #c3e3a7;
+}
+:export {
+  rlc: #f1e24b;
+}
+:export {
+  tribe: #428bca;
+}
+:export {
+  powr: #438e95;
+}
+:export {
+  dent: #5a5a5a;
+}
+:export {
+  api3: #c6c6c6;
+}
+:export {
+  bico: #fcfefd;
+}
+:export {
+  dydx: #5350f4;
+}
+:export {
+  repv2: #43236d;
+}
+:export {
+  chr: #000;
+}
+:export {
+  multi: #8225f2;
+}
+:export {
+  fxs: #000;
+}
+:export {
+  forth: #000;
+}
+:export {
+  oxt: #4b2dab;
+}
+:export {
+  rad: #433fff;
+}
+:export {
+  fet: #162035;
+}
+:export {
+  ach: #030033;
+}
+:export {
+  tlm: #000;
+}
+:export {
+  alice: #e64d22;
+}
+:export {
+  boba: #705fff;
+}
+:export {
+  bond: #eb5344;
+}
+:export {
+  krakenpurple: #5741d9;
+  krakenlightpurple: #8968ff;
+  krakenmediumpurple: #5409c8;
+  krakendarkpurple: #43196f;
+  krakenblue: #0385e6;
+  krakendarkblue: #0d0c52;
+  krakenkoamaru: #383562;
+  krakenpink: #dca3c8;
+  krakengray: #c7c7c7;
+  krakenlightgray: #e9e9e9;
+  krakencolorprimary: #5741d9;
+  krakencolorfaded: #c7c7c7;
+  krakenchartgreen: #65c36e;
+  krakensalmon: #ff8b8b;
+  krakenorange: #feb58d;
+  krakenwhite: #fff;
+  krakenblack: #000;
+  krakendarkgray: #242424;
+  krakenmediumblue: #2824b6;
+}
+.coin-fallback-color {
+  color: #000;
+}
+.INCH {
+  color: #122a47;
+}
+.AAVE {
+  color: #b6509e;
+}
+.ADA {
+  color: #3cc8c8;
+}
+.ADC {
+  color: #3cb0e5;
+}
+.AEON {
+  color: #164450;
+}
+.AKRO {
+  color: #ab47bc;
+}
+.AKT {
+  color: #d94934;
+}
+.ALGO {
+  color: #a8a836;
+}
+.AMP {
+  color: #048dd2;
+}
+.AMPL,
+.ANC {
+  color: #000;
+}
+.ANKR {
+  color: #0851ff;
+}
+.ANT {
+  color: #00c2ff;
+}
+.AR {
+  color: #29292d;
+}
+.ARCH {
+  color: #002652;
+}
+.ARDR {
+  color: #1162a1;
+}
+.ARK {
+  color: #f70000;
+}
+.AST {
+  color: #18f18f;
+}
+.ATLAS {
+  color: #fa3a00;
+}
+.ATOM {
+  color: #5064fb;
+}
+.AUR {
+  color: #136c5e;
+}
+.AVAX {
+  color: #e74140;
+}
+.AXS {
+  color: #0059dd;
+}
+.BADGER {
+  color: #f2a52b;
+}
+.BAND {
+  color: #516ffa;
+}
+.BANX {
+  color: #225ba6;
+}
+.BAL {
+  color: #000;
+}
+.BAT {
+  color: #9e1f63;
+}
+.BAY {
+  color: #584ba1;
+}
+.BC {
+  color: #202121;
+}
+.BCN {
+  color: #964f51;
+}
+.BCY {
+  color: #123a5a;
+}
+.BELA {
+  color: #009ef9;
+}
+.BFT {
+  color: #4fc3f7;
+}
+.BLZ {
+  color: #6be6be;
+}
+.BRK {
+  color: #194fa0;
+}
+.BRX {
+  color: #a8c300;
+}
+.BSD {
+  color: #1186e7;
+}
+.BTA {
+  color: #210094;
+}
+.BTC {
+  color: #f7931a;
+}
+.BCH {
+  color: #4cca47;
+}
+.BNC {
+  color: #000;
+}
+.BNT {
+  color: #0b0f2b;
+}
+.BTG {
+  color: #eba809;
+}
+.BTCD {
+  color: #2a72dc;
+}
+.BTCP {
+  color: #272d63;
+}
+.BTM {
+  color: #9fa8b4;
+}
+.BTS {
+  color: #03a9e0;
+}
+.BTT {
+  color: #000;
+}
+.BRICK {
+  color: #aa472d;
+}
+.BURST {
+  color: #2d2d2d;
+}
+.CAD {
+  color: #f60;
+}
+.CEL {
+  color: #ff3cac;
+}
+.CELO {
+  color: #35d07f;
+}
+.CFG {
+  color: #000;
+}
+.CHF {
+  color: #f3b728;
+}
+.CHZ {
+  color: #ac0728;
+}
+.CLAM {
+  color: #d6ab31;
+}
+.CLOAK {
+  color: #df3f1e;
+}
+.COMP {
+  color: #00d395;
+}
+.CQT {
+  color: #ff4c8a;
+}
+.CRV {
+  color: #7f86a1;
+}
+.CTSI {
+  color: #000;
+}
+.CVC {
+  color: #3ab03e;
+}
+.DAO {
+  color: #ff3b3b;
+}
+.DAI {
+  color: #f4b731;
+}
+.DASH {
+  color: #1c75bc;
+}
+.DCR {
+  color: #3b7cfb;
+}
+.DCT {
+  color: #008770;
+}
+.DGB {
+  color: #06c;
+}
+.DGD,
+.DGX {
+  color: #d8a24a;
+}
+.DMD {
+  color: #5497b2;
+}
+.DNT {
+  color: #2c398f;
+}
+.DOT {
+  color: #e6007a;
+}
+.DOGE {
+  color: #ba9f33;
+}
+.EGLD {
+  color: #000;
+}
+.ENJ {
+  color: #7866d5;
+}
+.ENS {
+  color: #5284ff;
+}
+.EMC {
+  color: #674c8c;
+}
+.EMC2 {
+  color: #0cf;
+}
+.EOS {
+  color: #19191a;
+}
+.ERC {
+  color: #101e84;
+}
+.ETC {
+  color: #669073;
+}
+.ETH,
+.ETH2 {
+  color: #2e3192;
+}
+.EUR {
+  color: #00329c;
+}
+.EWT {
+  color: #a566ff;
+}
+.EXP {
+  color: #ffaa5c;
+}
+.FC2 {
+  color: #040405;
+}
+.FCT {
+  color: #2175bb;
+}
+.FIL {
+  color: #0090ff;
+}
+.FIDA {
+  color: #7c7cff;
+}
+.FLDC {
+  color: #c40e09;
+}
+.FLO {
+  color: #1358c8;
+}
+.FLOW {
+  color: #01ef83;
+}
+.FRK {
+  color: #0633cd;
+}
+.FTC {
+  color: #679ef1;
+}
+.FUN {
+  color: #ef3a5c;
+}
+.GAME {
+  color: #ed1b24;
+}
+.GBP {
+  color: #1176a8;
+}
+.GBYTE {
+  color: #2c3e50;
+}
+.GDC {
+  color: #e9a226;
+}
+.GEMZ {
+  color: #e86060;
+}
+.GENS {
+  color: #b74119;
+}
+.GHST {
+  color: #f500f0;
+}
+.GLD {
+  color: #e8be24;
+}
+.GNO {
+  color: #00a6c4;
+}
+.GNT {
+  color: #00d6e3;
+}
+.GOLOS {
+  color: #2670b7;
+}
+.GRC {
+  color: #88a13c;
+}
+.GRS {
+  color: #648fa0;
+}
+.GRT {
+  color: #230652;
+}
+.HEAT {
+  color: #ff5606;
+}
+.HNS {
+  color: #000;
+}
+.HBAR {
+  color: #222;
+}
+.HUC {
+  color: #ffc018;
+}
+.ICN {
+  color: #4c6f8c;
+}
+.ICX {
+  color: #22c8cc;
+}
+.ICP {
+  color: #f5cd66;
+}
+.IFC {
+  color: #ed272d;
+}
+.INCNT {
+  color: #f2932f;
+}
+.IOC {
+  color: #2fa3de;
+}
+.JBS {
+  color: #1a8bcd;
+}
+.KAR {
+  color: #ff4c3b;
+}
+.KAVA {
+  color: #ff564f;
+}
+.KEEP {
+  color: #293330;
+}
+.KMD {
+  color: #326464;
+}
+.KOBO {
+  color: #80c342;
+}
+.KORE {
+  color: #df4124;
+}
+.KSM {
+  color: #000;
+}
+.KNC {
+  color: #31cb9e;
+}
+.KIN {
+  color: #6f41e8;
+}
+.LBC {
+  color: #015c47;
+}
+.LDOGE {
+  color: #fc0;
+}
+.LEND {
+  color: #0fa9c9;
+}
+.LINK {
+  color: #2a5ada;
+}
+.LSK {
+  color: #0d4ea0;
+}
+.LTC {
+  color: #345c9d;
+}
+.LPT {
+  color: #00eb88;
+}
+.LRC {
+  color: #1c42ff;
+}
+.LUNA {
+  color: #ffda51;
+}
+.MAID {
+  color: #5492d6;
+}
+.MARKS {
+  color: #504c4c;
+}
+.MANA {
+  color: #ff2d55;
+}
+.MATIC {
+  color: #8247e5;
+}
+.MLN {
+  color: #333;
+}
+.MCO {
+  color: #0d3459;
+}
+.MINA {
+  color: #ff603b;
+}
+.MINT {
+  color: #006835;
+}
+.MKR {
+  color: #1abc9c;
+}
+.MNGO {
+  color: #eeb91b;
+}
+.MONA {
+  color: #a99364;
+}
+.MOON {
+  color: #efd88b;
+}
+.MOVR {
+  color: #53ccc9;
+}
+.MRC {
+  color: #4279bd;
+}
+.MSC {
+  color: #1d4983;
+}
+.MTL {
+  color: #242424;
+}
+.MTR {
+  color: #b92429;
+}
+.MUE {
+  color: #f5a10e;
+}
+.MV {
+  color: #5448c9;
+}
+.NANO {
+  color: #4a90e2;
+}
+.NAV {
+  color: #7d59b5;
+}
+.MYST {
+  color: #f5a10e;
+}
+.NBT {
+  color: #ffc93d;
+}
+.NEAR {
+  color: #e6dff1;
+}
+.NEO {
+  color: #58bf00;
+}
+.NEOS {
+  color: #1d1d1b;
+}
+.NEU {
+  color: #2983c0;
+}
+.NLG {
+  color: #003e7e;
+}
+.NMC {
+  color: #6787b7;
+}
+.NMR {
+  color: #8de8de;
+}
+.NOTE {
+  color: #42daff;
+}
+.NU {
+  color: #1e65f3;
+}
+.NVC {
+  color: #ecab41;
+}
+.NXT {
+  color: #008fbb;
+}
+.OCEAN {
+  color: #141414;
+}
+.OGN {
+  color: #1982fe;
+}
+.OK {
+  color: #0165a4;
+}
+.OMG {
+  color: #1a53f0;
+}
+.OMNI {
+  color: #18347e;
+}
+.OPAL {
+  color: #7193aa;
+}
+.OXT {
+  color: #5f45ba;
+}
+.ORCA {
+  color: #ffd15c;
+}
+.PART {
+  color: #05d5a3;
+}
+.PASC {
+  color: #f7931e;
+}
+.PAXG {
+  color: #ffce56;
+}
+.PERP {
+  color: #05bce4;
+}
+.PHA {
+  color: #9dc431;
+}
+.PIGGY {
+  color: #f27a7a;
+}
+.PINK {
+  color: #ed31ca;
+}
+.PIVX {
+  color: #3b2f4d;
+}
+.POT {
+  color: #105b2f;
+}
+.POLIS {
+  color: #322fb3;
+}
+.PPC {
+  color: #3fa30c;
+}
+.PPT {
+  color: #5a9ef6;
+}
+.QRK {
+  color: #22aabf;
+}
+.QTUM {
+  color: #359bce;
+}
+.RADS {
+  color: #924cea;
+}
+.RARI {
+  color: #06f;
+}
+.RAY {
+  color: #406afa;
+}
+.RBIES {
+  color: #c62436;
+}
+.RBT {
+  color: #0d4982;
+}
+.RBY {
+  color: #d31f26;
+}
+.RDD {
+  color: #ed1c24;
+}
+.REP {
+  color: #40a2cb;
+}
+.REN {
+  color: #3f3f48;
+}
+.REV {
+  color: #5e2cf2;
+}
+.RIC {
+  color: #60e4dd;
+}
+.RHOC {
+  color: #c26c26;
+}
+.RISE {
+  color: #43cea2;
+}
+.RIVER {
+  color: #f2a007;
+}
+.RVN {
+  color: #f15b22;
+}
+.SALT {
+  color: #373c43;
+}
+.SAR {
+  color: #1b72b8;
+}
+.SAND {
+  color: #0084ff;
+}
+.SABER {
+  color: #6966fb;
+}
+.SC {
+  color: #1ed660;
+}
+.SCOT {
+  color: #3498db;
+}
+.SDC {
+  color: #981d2d;
+}
+.SDN {
+  color: #5928b1;
+}
+.SHIB {
+  color: #f06500;
+}
+.SIA {
+  color: #00cba0;
+}
+.SJCX {
+  color: #036;
+}
+.SLG {
+  color: #5a6875;
+}
+.SLS {
+  color: #1eb549;
+}
+.SNRG {
+  color: #160363;
+}
+.SNX {
+  color: #4525d0;
+}
+.SOL {
+  color: #d83aeb;
+}
+.SRM {
+  color: #09b9d3;
+}
+.START {
+  color: #01aef0;
+}
+.STEEM {
+  color: #1a5099;
+}
+.STRAT {
+  color: #2398dd;
+}
+.STEP {
+  color: #00f8b7;
+}
+.STORJ {
+  color: #133e9c;
+}
+.SUSHI {
+  color: #f77d05;
+}
+.SWIFT {
+  color: #428bca;
+}
+.SXP {
+  color: #ff4920;
+}
+.SYNC {
+  color: #008dd2;
+}
+.SYS {
+  color: #0098da;
+}
+.TBTC {
+  color: #000;
+}
+.THETA {
+  color: #29b3eb;
+}
+.TRIG {
+  color: #1fbff4;
+}
+.TRX {
+  color: #c62734;
+}
+.TX {
+  color: #1f8bcc;
+}
+.UBQ {
+  color: #00ec8d;
+}
+.UNI {
+  color: #ea347b;
+}
+.UNITY {
+  color: #ed8527;
+}
+.USD {
+  color: #009a56;
+}
+.USDC {
+  color: #2775ca;
+}
+.USDT {
+  color: #2ca07a;
+}
+.VEN {
+  color: #15bdff;
+}
+.VET {
+  color: #1caeff;
+}
+.VIA {
+  color: #565656;
+}
+.VIOR {
+  color: #1f52a4;
+}
+.VNL {
+  color: #404249;
+}
+.VPN {
+  color: #589700;
+}
+.VRC {
+  color: #418bca;
+}
+.VTC {
+  color: #1b5c2e;
+}
+.WAVES {
+  color: #24aad6;
+}
+.WBTC {
+  color: #f09242;
+}
+.WOO {
+  color: #8cfaaa;
+}
+.XAI {
+  color: #2ef99f;
+}
+.XBC {
+  color: #f7931a;
+}
+.XBS {
+  color: #d3261d;
+}
+.XCP {
+  color: #ec1550;
+}
+.XEM {
+  color: #41bf76;
+}
+.XLM {
+  color: #3e1bdb;
+}
+.XMR {
+  color: #f60;
+}
+.XMY {
+  color: #bc3182;
+}
+.XPM {
+  color: #e5b625;
+}
+.XRP {
+  color: #23292f;
+}
+.XRPX {
+  color: #346aa9;
+}
+.XTZ {
+  color: #2c7df7;
+}
+.XVC {
+  color: #b50126;
+}
+.XVG {
+  color: #42afb2;
+}
+.XZC {
+  color: #23b852;
+}
+.JPY {
+  color: #ff5000;
+}
+.YBC {
+  color: #d6c154;
+}
+.YFI {
+  color: #0065d0;
+}
+.ZEC {
+  color: #e5a93d;
+}
+.ZEIT {
+  color: #acacac;
+}
+.ZRX {
+  color: #302c2c;
+}
+.ZIL {
+  color: #29ccc4;
+}
+.YAM {
+  color: #d1004d;
+}
+.B400 {
+  color: #0074a2;
+}
+.BNB {
+  color: #f3ba2f;
+}
+.BUSD {
+  color: #f0b90b;
+}
+.STETH {
+  color: #48a0f8;
+}
+.LEO {
+  color: #1e2c3e;
+}
+.FTT {
+  color: #02a6c2;
+}
+.CRO {
+  color: #142b70;
+}
+.APE {
+  color: #1b44c0;
+}
+.TONCOIN {
+  color: #08c;
+}
+.XCN {
+  color: #00bfaa;
+}
+.FRAX,
+.QNT {
+  color: #000;
+}
+.TUSD {
+  color: #0c2661;
+}
+.BIT {
+  color: #bffd50;
+}
+.FTM {
+  color: #50ace0;
+}
+.LDO {
+  color: #469bf0;
+}
+.RUNE {
+  color: #00e8ef;
+}
+.STX {
+  color: #5546ff;
+}
+.GMT {
+  color: #e9d088;
+}
+.UST {
+  color: #2468ff;
+}
+.CVX,
+.GALA {
+  color: #000;
+}
+.JUNO {
+  color: #e76b6a;
+}
+.GLM {
+  color: #d70068;
+}
+.T {
+  color: #6827e9;
+}
+.RSR {
+  color: #111;
+}
+.SYN {
+  color: #3400c5;
+}
+.VGX {
+  color: #38309b;
+}
+.WAXP {
+  color: #f6d059;
+}
+.AUDIO {
+  color: #be00d8;
+}
+.MXC {
+  color: #08005a;
+}
+.IMX {
+  color: #152127;
+}
+.GLMR {
+  color: #3b1625;
+}
+.UMA {
+  color: #ec5952;
+}
+.PLA {
+  color: #5dcac6;
+}
+.SNX {
+  color: #13064c;
+}
+.ENJ {
+  color: #6f57db;
+}
+.MV {
+  color: #612d9a;
+}
+.ASTR {
+  color: #449bef;
+}
+.MSOL {
+  color: #d0ece2;
+}
+.RNDR {
+  color: #be2d22;
+}
+.ACA {
+  color: #fc342d;
+}
+.INJ {
+  color: #58c0ef;
+}
+.COTI {
+  color: #3f71bb;
+}
+.SPELL {
+  color: #221c45;
+}
+.REQ {
+  color: #c3e3a7;
+}
+.RLC {
+  color: #f1e24b;
+}
+.TRIBE {
+  color: #428bca;
+}
+.POWR {
+  color: #438e95;
+}
+.DENT {
+  color: #5a5a5a;
+}
+.API3 {
+  color: #c6c6c6;
+}
+.BICO {
+  color: #fcfefd;
+}
+.DYDX {
+  color: #5350f4;
+}
+.REPV2 {
+  color: #43236d;
+}
+.CHR {
+  color: #000;
+}
+.MULTI {
+  color: #8225f2;
+}
+.FORTH,
+.FXS {
+  color: #000;
+}
+.OXT {
+  color: #4b2dab;
+}
+.RAD {
+  color: #433fff;
+}
+.FET {
+  color: #162035;
+}
+.ACH {
+  color: #030033;
+}
+.TLM {
+  color: #000;
+}
+.ALICE {
+  color: #e64d22;
+}
+.BOBA {
+  color: #705fff;
+}
+.BOND {
+  color: #eb5344;
+}
+@media (min-width: 769px) {
+  .kraken-only-mobile {
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .kraken-only-desktop {
+    display: none !important;
+  }
+}
+html[lang="ja-jp"] :not(.crypton):not(.beacon) {
+  font-family: Noto Sans JP, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック,
+    MS PGothic, sans-serif !important;
+}
+html[lang="vi-vn"] :not(.crypton):not(.beacon) {
+  font-family: Noto Sans Vietnamese, sans-serif !important;
+  letter-spacing: normal !important;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul.link-list {
+  -webkit-padding-start: 1em;
+  padding-inline-start: 1em;
+}
+ul.link-list li:before {
+  content: "";
+  display: block;
+  opacity: 0.25;
+  border-color: transparent #000;
+  border-style: solid;
+  border-width: 3px 0 3px 5px;
+  left: -1em;
+  top: 1.1em;
+  position: relative;
+}
+ul.link-list li:first-child {
+  margin-top: 0.9em;
+}
+ul.link-list li a:only-child {
+  font-family: Celias;
+  font-size: 14px;
+  font-weight: 700;
+  color: #5741d9;
+  text-decoration: none;
+  transition: opacity 0.2s linear 0s;
+}
+ul.link-list li a:only-child:hover {
+  opacity: 0.7;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.wrappable {
+  overflow-wrap: anywhere;
+}
+.crypto-ref {
+  text-decoration: none;
+  font-size: 14px;
+}
+.crypto-ref span {
+  color: #5741d9;
+  font-weight: 700;
+  padding: 0 0 0 12px;
+}
+.crypto-ref span span {
+  color: #000;
+  font-weight: 400;
+}
+.crypto-ref:before {
+  font-family: cryptocoins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+.crypto-ref.ADA-alt:before {
+  content: "";
+}
+.crypto-ref.ADA:before {
+  content: "";
+}
+.crypto-ref.ADC-alt:before {
+  content: "";
+}
+.crypto-ref.ADC:before {
+  content: "";
+}
+.crypto-ref.AEON-alt:before {
+  content: "";
+}
+.crypto-ref.AEON:before {
+  content: "";
+}
+.crypto-ref.AMP-alt:before {
+  content: "";
+}
+.crypto-ref.AMP:before {
+  content: "";
+}
+.crypto-ref.ANC-alt:before {
+  content: "";
+}
+.crypto-ref.ANC:before {
+  content: "";
+}
+.crypto-ref.ARCH-alt:before {
+  content: "";
+}
+.crypto-ref.ARCH:before {
+  content: "";
+}
+.crypto-ref.ARDR-alt:before {
+  content: "";
+}
+.crypto-ref.ARDR:before {
+  content: "";
+}
+.crypto-ref.ARK-alt:before {
+  content: "";
+}
+.crypto-ref.ARK:before {
+  content: "";
+}
+.crypto-ref.AST:before {
+  content: "";
+}
+.crypto-ref.AUR-alt:before {
+  content: "";
+}
+.crypto-ref.AUR:before {
+  content: "";
+}
+.crypto-ref.BANX-alt:before {
+  content: "";
+}
+.crypto-ref.BANX:before {
+  content: "";
+}
+.crypto-ref.BAT-alt:before {
+  content: "";
+}
+.crypto-ref.BAT:before {
+  content: "";
+}
+.crypto-ref.BAY-alt:before {
+  content: "";
+}
+.crypto-ref.BAY:before {
+  content: "";
+}
+.crypto-ref.BC-alt:before,
+.crypto-ref.BLK-alt:before {
+  content: "";
+}
+.crypto-ref.BC:before,
+.crypto-ref.BLK:before {
+  content: "";
+}
+.crypto-ref.BCC-alt:before,
+.crypto-ref.BCH-alt:before {
+  content: "";
+}
+.crypto-ref.BCC:before,
+.crypto-ref.BCH:before {
+  content: "";
+}
+.crypto-ref.BCN-alt:before {
+  content: "";
+}
+.crypto-ref.BCN:before {
+  content: "";
+}
+.crypto-ref.BCY:before {
+  content: "";
+}
+.crypto-ref.BELA:before {
+  content: "";
+}
+.crypto-ref.BFT-alt:before {
+  content: "";
+}
+.crypto-ref.BFT:before {
+  content: "";
+}
+.crypto-ref.BLZ:before {
+  content: "";
+}
+.crypto-ref.BNB:before {
+  content: "";
+}
+.crypto-ref.BRK-alt:before {
+  content: "";
+}
+.crypto-ref.BRK:before {
+  content: "";
+}
+.crypto-ref.BRX-alt:before {
+  content: "";
+}
+.crypto-ref.BRX:before {
+  content: "";
+}
+.crypto-ref.BSD-alt:before {
+  content: "";
+}
+.crypto-ref.BSD:before {
+  content: "";
+}
+.crypto-ref.BTA:before {
+  content: "";
+}
+.crypto-ref.BTC-alt:before {
+  content: "";
+}
+.crypto-ref.BTC:before {
+  content: "";
+}
+.crypto-ref.BTCD-alt:before {
+  content: "";
+}
+.crypto-ref.BTCD:before {
+  content: "";
+}
+.crypto-ref.BTCP-alt:before {
+  content: "";
+}
+.crypto-ref.BTCP:before {
+  content: "";
+}
+.crypto-ref.BTG:before {
+  content: "";
+}
+.crypto-ref.BTM-alt:before {
+  content: "";
+}
+.crypto-ref.BTM:before {
+  content: "";
+}
+.crypto-ref.BTS-alt:before {
+  content: "";
+}
+.crypto-ref.BTS:before {
+  content: "";
+}
+.crypto-ref.BURST:before {
+  content: "";
+}
+.crypto-ref.CLAM-alt:before {
+  content: "";
+}
+.crypto-ref.CLAM:before {
+  content: "";
+}
+.crypto-ref.CLOAK-alt:before {
+  content: "";
+}
+.crypto-ref.CLOAK:before {
+  content: "";
+}
+.crypto-ref.CVC-alt:before {
+  content: "";
+}
+.crypto-ref.CVC:before {
+  content: "";
+}
+.crypto-ref.DAO-alt:before {
+  content: "";
+}
+.crypto-ref.DAO:before {
+  content: "";
+}
+.crypto-ref.DASH-alt:before {
+  content: "";
+}
+.crypto-ref.DASH:before {
+  content: "";
+}
+.crypto-ref.DCR-alt:before {
+  content: "";
+}
+.crypto-ref.DCR:before {
+  content: "";
+}
+.crypto-ref.DCT-alt:before {
+  content: "";
+}
+.crypto-ref.DCT:before {
+  content: "";
+}
+.crypto-ref.DGB-alt:before {
+  content: "";
+}
+.crypto-ref.DGB:before {
+  content: "";
+}
+.crypto-ref.DGD:before {
+  content: "";
+}
+.crypto-ref.DGX:before {
+  content: "";
+}
+.crypto-ref.DMD-alt:before {
+  content: "";
+}
+.crypto-ref.DMD:before {
+  content: "";
+}
+.crypto-ref.DOGE-alt:before {
+  content: "";
+}
+.crypto-ref.DOGE:before {
+  content: "";
+}
+.crypto-ref.EMC-alt:before {
+  content: "";
+}
+.crypto-ref.EMC:before {
+  content: "";
+}
+.crypto-ref.EMC2-alt:before {
+  content: "";
+}
+.crypto-ref.EMC2:before {
+  content: "";
+}
+.crypto-ref.EOS-alt:before {
+  content: "";
+}
+.crypto-ref.EOS:before {
+  content: "";
+}
+.crypto-ref.ERC-alt:before {
+  content: "";
+}
+.crypto-ref.ERC:before {
+  content: "";
+}
+.crypto-ref.ETC-alt:before {
+  content: "";
+}
+.crypto-ref.ETC:before {
+  content: "";
+}
+.crypto-ref.ETH-alt:before {
+  content: "";
+}
+.crypto-ref.ETH:before {
+  content: "";
+}
+.crypto-ref.EXP-alt:before {
+  content: "";
+}
+.crypto-ref.EXP:before {
+  content: "";
+}
+.crypto-ref.FC2-alt:before {
+  content: "";
+}
+.crypto-ref.FC2:before {
+  content: "";
+}
+.crypto-ref.FCT-alt:before {
+  content: "";
+}
+.crypto-ref.FCT:before {
+  content: "";
+}
+.crypto-ref.FLDC-alt:before {
+  content: "";
+}
+.crypto-ref.FLDC:before {
+  content: "";
+}
+.crypto-ref.FLO-alt:before {
+  content: "";
+}
+.crypto-ref.FLO:before {
+  content: "";
+}
+.crypto-ref.FRK-alt:before {
+  content: "";
+}
+.crypto-ref.FRK:before {
+  content: "";
+}
+.crypto-ref.FTC-alt:before {
+  content: "";
+}
+.crypto-ref.FTC:before {
+  content: "";
+}
+.crypto-ref.FUN:before {
+  content: "";
+}
+.crypto-ref.GAME-alt:before {
+  content: "";
+}
+.crypto-ref.GAME:before {
+  content: "";
+}
+.crypto-ref.GBYTE-alt:before {
+  content: "";
+}
+.crypto-ref.GBYTE:before {
+  content: "";
+}
+.crypto-ref.GDC-alt:before {
+  content: "";
+}
+.crypto-ref.GDC:before {
+  content: "";
+}
+.crypto-ref.GEMZ-alt:before {
+  content: "";
+}
+.crypto-ref.GEMZ:before {
+  content: "";
+}
+.crypto-ref.GLD-alt:before {
+  content: "";
+}
+.crypto-ref.GLD:before {
+  content: "";
+}
+.crypto-ref.GNO-alt:before {
+  content: "";
+}
+.crypto-ref.GNO:before {
+  content: "";
+}
+.crypto-ref.GNT-alt:before {
+  content: "";
+}
+.crypto-ref.GNT:before {
+  content: "";
+}
+.crypto-ref.GOLOS-alt:before {
+  content: "";
+}
+.crypto-ref.GOLOS:before {
+  content: "";
+}
+.crypto-ref.GRC-alt:before {
+  content: "";
+}
+.crypto-ref.GRC:before {
+  content: "";
+}
+.crypto-ref.GRS:before {
+  content: "";
+}
+.crypto-ref.HEAT-alt:before {
+  content: "";
+}
+.crypto-ref.HEAT:before {
+  content: "";
+}
+.crypto-ref.HSR:before {
+  content: "";
+}
+.crypto-ref.HUC-alt:before {
+  content: "";
+}
+.crypto-ref.HUC:before {
+  content: "";
+}
+.crypto-ref.ICN-alt:before {
+  content: "";
+}
+.crypto-ref.ICN:before {
+  content: "";
+}
+.crypto-ref.ICX:before {
+  content: "";
+}
+.crypto-ref.IFC-alt:before {
+  content: "";
+}
+.crypto-ref.IFC:before {
+  content: "";
+}
+.crypto-ref.INCNT-alt:before {
+  content: "";
+}
+.crypto-ref.INCNT:before {
+  content: "";
+}
+.crypto-ref.IOC-alt:before {
+  content: "";
+}
+.crypto-ref.IOC:before {
+  content: "";
+}
+.crypto-ref.IOTA-alt:before {
+  content: "";
+}
+.crypto-ref.IOTA:before {
+  content: "";
+}
+.crypto-ref.JBS-alt:before {
+  content: "";
+}
+.crypto-ref.JBS:before {
+  content: "";
+}
+.crypto-ref.KMD-alt:before {
+  content: "";
+}
+.crypto-ref.KMD:before {
+  content: "";
+}
+.crypto-ref.KOBO:before {
+  content: "";
+}
+.crypto-ref.KORE-alt:before {
+  content: "";
+}
+.crypto-ref.KORE:before {
+  content: "";
+}
+.crypto-ref.LBC-alt:before {
+  content: "";
+}
+.crypto-ref.LBC:before {
+  content: "";
+}
+.crypto-ref.LDOGE-alt:before {
+  content: "";
+}
+.crypto-ref.LDOGE:before {
+  content: "";
+}
+.crypto-ref.LSK-alt:before {
+  content: "";
+}
+.crypto-ref.LSK:before {
+  content: "";
+}
+.crypto-ref.LTC-alt:before {
+  content: "";
+}
+.crypto-ref.LTC:before {
+  content: "";
+}
+.crypto-ref.MAID-alt:before {
+  content: "";
+}
+.crypto-ref.MAID:before {
+  content: "";
+}
+.crypto-ref.MARKS-alt:before {
+  content: "";
+}
+.crypto-ref.Bitmark:before,
+.crypto-ref.MARKS:before {
+  content: "";
+}
+.crypto-ref.MCO-alt:before {
+  content: "";
+}
+.crypto-ref.MCO:before {
+  content: "";
+}
+.crypto-ref.MINT-alt:before {
+  content: "";
+}
+.crypto-ref.MINT:before {
+  content: "";
+}
+.crypto-ref.MONA-alt:before {
+  content: "";
+}
+.crypto-ref.MONA:before {
+  content: "";
+}
+.crypto-ref.MRC:before {
+  content: "";
+}
+.crypto-ref.MSC-alt:before {
+  content: "";
+}
+.crypto-ref.MSC:before {
+  content: "";
+}
+.crypto-ref.MTL-alt:before {
+  content: "";
+}
+.crypto-ref.MTL:before {
+  content: "";
+}
+.crypto-ref.MTR-alt:before {
+  content: "";
+}
+.crypto-ref.MTR:before {
+  content: "";
+}
+.crypto-ref.MUE-alt:before {
+  content: "";
+}
+.crypto-ref.MUE:before {
+  content: "";
+}
+.crypto-ref.MYST-alt:before {
+  content: "";
+}
+.crypto-ref.MYST:before {
+  content: "";
+}
+.crypto-ref.NAV-alt:before {
+  content: "";
+}
+.crypto-ref.NAV:before {
+  content: "";
+}
+.crypto-ref.NBT:before,
+.crypto-ref.USNBT:before {
+  content: "";
+}
+.crypto-ref.NEO-alt:before {
+  content: "";
+}
+.crypto-ref.GAS:before,
+.crypto-ref.NEO:before {
+  content: "";
+}
+.crypto-ref.NEOS-alt:before {
+  content: "";
+}
+.crypto-ref.NEOS:before {
+  content: "";
+}
+.crypto-ref.NEU-alt:before {
+  content: "";
+}
+.crypto-ref.NEU:before {
+  content: "";
+}
+.crypto-ref.NLG-alt:before {
+  content: "";
+}
+.crypto-ref.NLG:before {
+  content: "";
+}
+.crypto-ref.NMC-alt:before {
+  content: "";
+}
+.crypto-ref.NMC:before {
+  content: "";
+}
+.crypto-ref.NMR:before {
+  content: "";
+}
+.crypto-ref.NOTE-alt:before {
+  content: "";
+}
+.crypto-ref.NOTE:before {
+  content: "";
+}
+.crypto-ref.NVC-alt:before {
+  content: "";
+}
+.crypto-ref.NVC:before {
+  content: "";
+}
+.crypto-ref.NXT-alt:before {
+  content: "";
+}
+.crypto-ref.NXT:before {
+  content: "";
+}
+.crypto-ref.OK-alt:before {
+  content: "";
+}
+.crypto-ref.OK:before {
+  content: "";
+}
+.crypto-ref.OMG-alt:before {
+  content: "";
+}
+.crypto-ref.OMG:before {
+  content: "";
+}
+.crypto-ref.OMNI-alt:before {
+  content: "";
+}
+.crypto-ref.OMNI:before {
+  content: "";
+}
+.crypto-ref.OPAL-alt:before {
+  content: "";
+}
+.crypto-ref.OPAL:before {
+  content: "";
+}
+.crypto-ref.PART-alt:before {
+  content: "";
+}
+.crypto-ref.PART:before {
+  content: "";
+}
+.crypto-ref.PASC:before {
+  content: "";
+}
+.crypto-ref.PIGGY-alt:before {
+  content: "";
+}
+.crypto-ref.PIGGY:before {
+  content: "";
+}
+.crypto-ref.PINK-alt:before {
+  content: "";
+}
+.crypto-ref.PINK:before {
+  content: "";
+}
+.crypto-ref.PIVX-alt:before {
+  content: "";
+}
+.crypto-ref.PIVX:before {
+  content: "";
+}
+.crypto-ref.POT-alt:before {
+  content: "";
+}
+.crypto-ref.POT:before {
+  content: "";
+}
+.crypto-ref.PPC-alt:before {
+  content: "";
+}
+.crypto-ref.PPC:before {
+  content: "";
+}
+.crypto-ref.PPT:before {
+  content: "";
+}
+.crypto-ref.QRK-alt:before {
+  content: "";
+}
+.crypto-ref.QRK:before {
+  content: "";
+}
+.crypto-ref.QTUM-alt:before {
+  content: "";
+}
+.crypto-ref.QTUM:before {
+  content: "";
+}
+.crypto-ref.RADS-alt:before {
+  content: "";
+}
+.crypto-ref.RADS:before {
+  content: "";
+}
+.crypto-ref.RBIES-alt:before {
+  content: "";
+}
+.crypto-ref.RBIES:before {
+  content: "";
+}
+.crypto-ref.RBT-alt:before {
+  content: "";
+}
+.crypto-ref.RBT:before {
+  content: "";
+}
+.crypto-ref.RBY-alt:before {
+  content: "";
+}
+.crypto-ref.RBY:before {
+  content: "";
+}
+.crypto-ref.RDD-alt:before {
+  content: "";
+}
+.crypto-ref.RDD:before {
+  content: "";
+}
+.crypto-ref.REP-alt:before {
+  content: "";
+}
+.crypto-ref.REP:before {
+  content: "";
+}
+.crypto-ref.RHOC:before {
+  content: "";
+}
+.crypto-ref.RIC-alt:before {
+  content: "";
+}
+.crypto-ref.RIC:before {
+  content: "";
+}
+.crypto-ref.RISE-alt:before {
+  content: "";
+}
+.crypto-ref.RISE:before {
+  content: "";
+}
+.crypto-ref.SALT-alt:before {
+  content: "";
+}
+.crypto-ref.SALT:before {
+  content: "";
+}
+.crypto-ref.SAR-alt:before {
+  content: "";
+}
+.crypto-ref.SAR:before {
+  content: "";
+}
+.crypto-ref.SCOT-alt:before {
+  content: "";
+}
+.crypto-ref.SCOT:before {
+  content: "";
+}
+.crypto-ref.SDC-alt:before {
+  content: "";
+}
+.crypto-ref.SDC:before {
+  content: "";
+}
+.crypto-ref.SIA-alt:before {
+  content: "";
+}
+.crypto-ref.SC:before,
+.crypto-ref.SIA:before {
+  content: "";
+}
+.crypto-ref.SJCX-alt:before {
+  content: "";
+}
+.crypto-ref.SJCX:before,
+.crypto-ref.STORJ:before {
+  content: "";
+}
+.crypto-ref.SLG-alt:before {
+  content: "";
+}
+.crypto-ref.SLG:before {
+  content: "";
+}
+.crypto-ref.SLS-alt:before {
+  content: "";
+}
+.crypto-ref.SLS:before {
+  content: "";
+}
+.crypto-ref.SNRG-alt:before {
+  content: "";
+}
+.crypto-ref.SNRG:before {
+  content: "";
+}
+.crypto-ref.SNT:before {
+  content: "";
+}
+.crypto-ref.START-alt:before {
+  content: "";
+}
+.crypto-ref.START:before {
+  content: "";
+}
+.crypto-ref.STEEM-alt:before {
+  content: "";
+}
+.crypto-ref.SBD:before,
+.crypto-ref.STEEM:before {
+  content: "";
+}
+.crypto-ref.STRAT-alt:before {
+  content: "";
+}
+.crypto-ref.STRAT:before {
+  content: "";
+}
+.crypto-ref.SWIFT-alt:before {
+  content: "";
+}
+.crypto-ref.SWIFT:before {
+  content: "";
+}
+.crypto-ref.SYNC-alt:before {
+  content: "";
+}
+.crypto-ref.SYNC:before {
+  content: "";
+}
+.crypto-ref.SYS-alt:before {
+  content: "";
+}
+.crypto-ref.SYS:before {
+  content: "";
+}
+.crypto-ref.TRIG-alt:before {
+  content: "";
+}
+.crypto-ref.TRIG:before {
+  content: "";
+}
+.crypto-ref.TRX:before {
+  content: "";
+}
+.crypto-ref.TX-alt:before {
+  content: "";
+}
+.crypto-ref.TX:before {
+  content: "";
+}
+.crypto-ref.UBQ-alt:before {
+  content: "";
+}
+.crypto-ref.UBQ:before {
+  content: "";
+}
+.crypto-ref.UNITY-alt:before {
+  content: "";
+}
+.crypto-ref.UNITY:before {
+  content: "";
+}
+.crypto-ref.USDT-alt:before {
+  content: "";
+}
+.crypto-ref.USDT:before {
+  content: "";
+}
+.crypto-ref.VERI:before {
+  content: "";
+}
+.crypto-ref.VET:before {
+  content: "";
+}
+.crypto-ref.VIA-alt:before {
+  content: "";
+}
+.crypto-ref.VIA:before {
+  content: "";
+}
+.crypto-ref.VIOR-alt:before {
+  content: "";
+}
+.crypto-ref.VIOR:before {
+  content: "";
+}
+.crypto-ref.VNL-alt:before {
+  content: "";
+}
+.crypto-ref.VNL:before {
+  content: "";
+}
+.crypto-ref.VPN-alt:before {
+  content: "";
+}
+.crypto-ref.VPN:before {
+  content: "";
+}
+.crypto-ref.VRC-alt:before {
+  content: "";
+}
+.crypto-ref.VRC:before {
+  content: "";
+}
+.crypto-ref.VTC-alt:before {
+  content: "";
+}
+.crypto-ref.VTC:before {
+  content: "";
+}
+.crypto-ref.WAVES-alt:before {
+  content: "";
+}
+.crypto-ref.WAVES:before {
+  content: "";
+}
+.crypto-ref.XAI-alt:before {
+  content: "";
+}
+.crypto-ref.XAI:before {
+  content: "";
+}
+.crypto-ref.XBC:before {
+  content: "";
+}
+.crypto-ref.XBS-alt:before {
+  content: "";
+}
+.crypto-ref.XBS:before {
+  content: "";
+}
+.crypto-ref.XCP-alt:before {
+  content: "";
+}
+.crypto-ref.XCP:before {
+  content: "";
+}
+.crypto-ref.XEM-alt:before {
+  content: "";
+}
+.crypto-ref.XEM:before {
+  content: "";
+}
+.crypto-ref.XLM-alt:before {
+  content: "";
+}
+.crypto-ref.XLM:before {
+  content: "";
+}
+.crypto-ref.XMR:before {
+  content: "";
+}
+.crypto-ref.XMY:before {
+  content: "";
+}
+.crypto-ref.XPM-alt:before {
+  content: "";
+}
+.crypto-ref.XPM:before {
+  content: "";
+}
+.crypto-ref.XRB:before {
+  content: "";
+}
+.crypto-ref.XRP-alt:before {
+  content: "";
+}
+.crypto-ref.XRP:before {
+  content: "";
+}
+.crypto-ref.XTZ-alt:before {
+  content: "";
+}
+.crypto-ref.XTZ:before {
+  content: "";
+}
+.crypto-ref.XVC-alt:before {
+  content: "";
+}
+.crypto-ref.XVC:before {
+  content: "";
+}
+.crypto-ref.XVG-alt:before {
+  content: "";
+}
+.crypto-ref.XVG:before {
+  content: "";
+}
+.crypto-ref.XZC-alt:before {
+  content: "";
+}
+.crypto-ref.XZC:before {
+  content: "";
+}
+.crypto-ref.YBC-alt:before {
+  content: "";
+}
+.crypto-ref.YBC:before {
+  content: "";
+}
+.crypto-ref.ZEC-alt:before {
+  content: "";
+}
+.crypto-ref.ZEC:before {
+  content: "";
+}
+.crypto-ref.ZEIT-alt:before {
+  content: "";
+}
+.crypto-ref.ZEIT:before {
+  content: "";
+}
+.crypto-ref.ZRX-alt:before {
+  content: "";
+}
+.crypto-ref.ZRX:before {
+  content: "";
+}
